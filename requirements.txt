@@ -1,0 +1,5 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+html2text==2020.1.16
+ebooklib==0.18
+lxml==5.1.0
