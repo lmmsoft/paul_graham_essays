@@ -1,134 +1,132 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+此文件为在本代码库中工作的 Claude Code (claude.ai/code) 提供指导。
 
-## Project Overview
+## 项目概述
 
-This is a comprehensive Paul Graham essay scraper and translation system that:
-1. Scrapes essays from paulgraham.com
-2. Converts them to Markdown format
-3. Generates EPUB ebooks
-4. Provides Chinese translation capabilities using multiple translation services
+这是一个综合性的 Paul Graham 文章爬虫和翻译系统，功能包括：
+1. 从 paulgraham.com 爬取文章
+2. 将文章转换为 Markdown 格式
+3. 生成 EPUB 电子书
+4. 使用多种翻译服务提供中文翻译能力
 
-## Core Architecture
+## 核心架构
 
-### Scraping Pipeline
-- **Entry Points**: `scrape_all_essays.py` (interactive), `pg_scraper_final.py` (quick test)
-- **Enhanced Scraper**: `pg_enhanced_simple.py` and `pg_enhanced_scraper.py` provide caching and improved processing
-- **Output**: Articles saved to `articles/` or `pg_essays/` directories with metadata in JSON files
+### 爬虫管道
+- **入口点**: `scrape_all_essays.py` (交互式), `pg_scraper_final.py` (快速测试)
+- **增强爬虫**: `pg_enhanced_simple.py` 和 `pg_enhanced_scraper.py` 提供缓存和改进的处理
+- **输出**: 文章保存到 `articles/` 或 `pg_essays/` 目录，元数据保存为 JSON 文件
 
-### Translation System
-- **AI Translation**: `ai_translator.py` uses SiliconFlow's DeepSeek-V3 model for high-quality translations
-- **Traditional Translation**: `translate_to_chinese.py` and `translate_articles.py` use free translation APIs (Bing, Google, etc.)
-- **Caching**: Both systems implement smart caching in `translation_cache/` directory
-- **Output**: Chinese articles saved to `chinese_articles/` or `pg_essays_cn/`
+### 翻译系统
+- **AI 翻译**: `ai_translator.py` 使用 SiliconFlow 的 DeepSeek-V3 模型进行高质量翻译
+- **缓存**: 两个系统都在 `translation_cache/` 目录实现智能缓存
+- **输出**: 中文文章保存到 `chinese_articles/` 或 `pg_essays_cn/`
 
-### EPUB Generation
-- **Enhanced Generator**: `regenerate_epub.py` creates feature-rich EPUBs from existing articles
-- **Multiple Output Formats**: Supports both English and Chinese versions
-- **Metadata Preservation**: Maintains article dates, titles, and structure
+### EPUB 生成
+- **增强生成器**: `regenerate_epub.py` 从现有文章创建功能丰富的 EPUB
+- **多种输出格式**: 支持英文和中文版本
+- **元数据保留**: 维护文章日期、标题和结构
 
-## Development Environment
+## 开发环境
 
-### Setup
+### 设置
 ```bash
-# Install dependencies
+# 安装依赖
 pip install -r requirements.txt
 ```
 
-### Key Dependencies
-- `requests` + `beautifulsoup4`: Web scraping
-- `html2text`: HTML to Markdown conversion
-- `ebooklib`: EPUB generation
-- `translators`: Free translation APIs
-- `weasyprint`: PDF generation support
+### 主要依赖
+- `requests` + `beautifulsoup4`: 网页爬虫
+- `html2text`: HTML 转 Markdown
+- `ebooklib`: EPUB 生成
+- `weasyprint`: PDF 生成支持
 
-## Common Commands
+## 常用命令
 
-### Scraping Articles
+### 爬取文章
 ```bash
-# Quick test (20 articles)
+# 快速测试 (20篇文章)
 python pg_scraper_final.py
 
-# Interactive scraping with options
+# 交互式爬取选项
 python scrape_all_essays.py
 
-# Enhanced scraping with caching
+# 带缓存的增强爬取
 python pg_enhanced_simple.py
 ```
 
-### Translation
+### 翻译
 ```bash
-# AI translation (recommended for quality)
+# AI 翻译 (推荐高质量)
 python ai_translator.py
 
-# Free translation services
+# 免费翻译服务
 python translate_to_chinese.py
 python translate_articles.py
 ```
 
-### EPUB Generation
+### EPUB 生成
 ```bash
-# Generate enhanced EPUB from existing articles
+# 从现有文章生成增强 EPUB
 python regenerate_epub.py
 
-# Import existing articles and regenerate
+# 导入现有文章并重新生成
 python import_and_regenerate.py
 ```
 
-## Directory Structure
+## 目录结构
 
-### Input/Output Directories
-- `articles/` or `pg_essays/`: Original English articles in Markdown
-- `chinese_articles/` or `pg_essays_cn/`: Translated Chinese articles
-- `output/`: Generated EPUB files
-- `cache/`: Scraping cache (JSON files)
-- `translation_cache/`: Translation cache (text files)
+### 输入/输出目录
+- `articles/` 或 `pg_essays/`: Markdown 格式的原始英文文章
+- `chinese_articles/` 或 `pg_essays_cn/`: 翻译后的中文文章
+- `output/`: 生成的 EPUB 文件
+- `cache/`: 爬取缓存 (JSON 文件)
+- `translation_cache/`: 翻译缓存 (文本文件)
 
-### Metadata Files
-- `*_metadata.json`: Article metadata (titles, URLs, dates, counts)
-- `cache_index.json`: Cache indexing for scraped content
+### 元数据文件
+- `*_metadata.json`: 文章元数据 (标题、URL、日期、计数)
+- `cache_index.json`: 爬取内容的缓存索引
 
-## Translation Workflow
+## 翻译工作流
 
-The project supports two translation approaches:
+项目支持两种翻译方式：
 
-1. **AI Translation** (ai_translator.py):
-   - Uses SiliconFlow's DeepSeek-V3 model
-   - Provides high-quality, context-aware translations
-   - Handles long articles by intelligent chunking
-   - Maintains professional terminology consistency
+1. **AI 翻译** (ai_translator.py):
+   - 使用 SiliconFlow 的 DeepSeek-V3 模型
+   - 提供高质量、上下文感知的翻译
+   - 通过智能分块处理长文章
+   - 维护专业术语一致性
 
-2. **Traditional Translation** (translate_*.py):
-   - Uses free APIs (Bing, Google, Baidu)
-   - Implements retry logic and rate limiting
-   - Suitable for basic translation needs
+2. **传统翻译** (translate_*.py):
+   - 使用免费 API (Bing, Google, 百度)
+   - 实现重试逻辑和速率限制
+   - 适合基本翻译需求
 
-## Data Flow
+## 数据流
 
 ```
-paulgraham.com → Scraper → Markdown Files → Translator → Chinese Files → EPUB Generator
+paulgraham.com → 爬虫 → Markdown文件 → 翻译器 → 中文文件 → EPUB生成器
                      ↓              ↓                        ↓
-                  Cache         Metadata              Translation Cache
+                  缓存         元数据              翻译缓存
 ```
 
-## Important Notes
+## 重要说明
 
-### API Keys
-- AI translator requires SiliconFlow API key in `ai_translator.py` (line 173)
-- Free translators don't require API keys but have rate limits
+### API 密钥
+- AI 翻译器需要在 `ai_translator.py` (第173行) 中配置 SiliconFlow API 密钥
+- 免费翻译器不需要 API 密钥但有速率限制
 
-### Rate Limiting
-- Scrapers implement 1.5-2 second delays between requests
-- Translation services have built-in retry logic
-- Both systems respect server resources
+### 速率限制
+- 爬虫在请求之间实施 1.5-2 秒延迟
+- 翻译服务内置重试逻辑
+- 两个系统都尊重服务器资源
 
-### File Naming
-- All filenames are sanitized to remove illegal characters
-- Chinese titles may include explanatory notes in parentheses
-- EPUB files include timestamps to avoid conflicts
+### 文件命名
+- 所有文件名都经过清理以移除非法字符
+- 中文标题可能包含括号中的解释性注释
+- EPUB 文件包含时间戳以避免冲突
 
-### Cache Management
-- Scraping cache prevents re-downloading articles
-- Translation cache prevents re-translating segments
-- Cache files are safe to delete if full refresh is needed
+### 缓存管理
+- 爬取缓存防止重复下载文章
+- 翻译缓存防止重复翻译片段
+- 如需完全刷新，可以安全删除缓存文件
