@@ -19,8 +19,9 @@
 
 ### 翻译系统
 - **AI 翻译**: `ai_translator.py` 使用 SiliconFlow 的 DeepSeek-V3 模型进行高质量翻译
-- **缓存**: 两个系统都在 `translation_cache/` 目录实现智能缓存
-- **输出**: 中文文章保存到 `chinese_articles/` 或 `pg_essays_cn/`
+- **智能分块**: 自动将长文章分割成适合翻译的块
+- **上下文感知**: 提供文章上下文信息提升翻译质量
+- **输出**: 中文文章保存到 `pg_essays_cn/` 目录
 
 ### EPUB 生成
 - **增强生成器**: `regenerate_epub.py` 从现有文章创建功能丰富的 EPUB
@@ -57,12 +58,8 @@ python pg_enhanced_simple.py
 
 ### 翻译
 ```bash
-# AI 翻译 (推荐高质量)
+# AI 翻译 (DeepSeek-V3模型)
 python ai_translator.py
-
-# 免费翻译服务
-python translate_to_chinese.py
-python translate_articles.py
 ```
 
 ### EPUB 生成
@@ -89,25 +86,22 @@ python import_and_regenerate.py
 
 ## 翻译工作流
 
-项目支持两种翻译方式：
+项目使用 AI 翻译系统：
 
-1. **AI 翻译** (ai_translator.py):
-   - 使用 SiliconFlow 的 DeepSeek-V3 模型
-   - 提供高质量、上下文感知的翻译
-   - 通过智能分块处理长文章
-   - 维护专业术语一致性
-
-2. **传统翻译** (translate_*.py):
-   - 使用免费 API (Bing, Google, 百度)
-   - 实现重试逻辑和速率限制
-   - 适合基本翻译需求
+**AI 翻译** (ai_translator.py):
+- 使用 SiliconFlow 的 DeepSeek-V3 模型
+- 提供高质量、上下文感知的翻译
+- 通过智能分块处理长文章
+- 维护专业术语一致性
+- 交互式选择翻译数量（5篇/20篇/指定/全部）
+- 自动生成翻译日志
 
 ## 数据流
 
 ```
-paulgraham.com → 爬虫 → Markdown文件 → 翻译器 → 中文文件 → EPUB生成器
+paulgraham.com → 爬虫 → Markdown文件 → AI翻译器 → 中文文件 → EPUB生成器
                      ↓              ↓                        ↓
-                  缓存         元数据              翻译缓存
+                  缓存         元数据              翻译日志
 ```
 
 ## 重要说明
@@ -115,7 +109,6 @@ paulgraham.com → 爬虫 → Markdown文件 → 翻译器 → 中文文件 → 
 ### API 密钥配置
 - AI 翻译器需要 SiliconFlow API 密钥
 - 复制 `.env.example` 为 `.env` 并填入真实密钥
-- 免费翻译器不需要 API 密钥但有速率限制
 - **重要**: 绝不要将 `.env` 文件提交到版本控制
 
 ### 速率限制
