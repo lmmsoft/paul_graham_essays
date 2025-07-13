@@ -14,7 +14,7 @@
 
 ### 爬虫管道
 - **入口点**: `scrape_all_essays.py` (交互式), `pg_scraper_final.py` (快速测试)
-- **增强爬虫**: `pg_enhanced_simple.py` 和 `pg_enhanced_scraper.py` 提供缓存和改进的处理
+- **增强爬虫**: `pg_enhanced_scraper.py` 提供缓存、EPUB和PDF生成功能
 - **输出**: 文章保存到 `articles/` 或 `pg_essays/` 目录，元数据保存为 JSON 文件
 
 ### 翻译系统
@@ -23,8 +23,9 @@
 - **上下文感知**: 提供文章上下文信息提升翻译质量
 - **输出**: 中文文章保存到 `pg_essays_cn/` 目录
 
-### EPUB 生成
+### EPUB/PDF 生成
 - **增强生成器**: `regenerate_epub.py` 从现有文章创建功能丰富的 EPUB
+- **PDF支持**: `pg_enhanced_scraper.py` 支持生成PDF格式
 - **多种输出格式**: 支持英文和中文版本
 - **元数据保留**: 维护文章日期、标题和结构
 
@@ -52,8 +53,8 @@ python pg_scraper_final.py
 # 交互式爬取选项
 python scrape_all_essays.py
 
-# 带缓存的增强爬取
-python pg_enhanced_simple.py
+# 带缓存的增强爬取（支持EPUB/PDF）
+python pg_enhanced_scraper.py
 ```
 
 ### 翻译
@@ -62,13 +63,16 @@ python pg_enhanced_simple.py
 python ai_translator.py
 ```
 
-### EPUB 生成
+### EPUB/PDF 生成
 ```bash
 # 从现有文章生成增强 EPUB
 python regenerate_epub.py
 
 # 导入现有文章并重新生成
 python import_and_regenerate.py
+
+# 增强爬虫同时生成EPUB和PDF
+python pg_enhanced_scraper.py
 ```
 
 ## 目录结构
