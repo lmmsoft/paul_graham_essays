@@ -80,7 +80,7 @@ python pg_enhanced_scraper.py
 ### 输入/输出目录
 - `articles/` 或 `pg_essays/`: Markdown 格式的原始英文文章
 - `chinese_articles/` 或 `pg_essays_cn/`: 翻译后的中文文章
-- `output/`: 生成的 EPUB 文件
+- `output/`: 生成的 EPUB 和 PDF 文件
 - `cache/`: 爬取缓存 (JSON 文件)
 - `translation_cache/`: 翻译缓存 (文本文件)
 
@@ -103,7 +103,7 @@ python pg_enhanced_scraper.py
 ## 数据流
 
 ```
-paulgraham.com → 爬虫 → Markdown文件 → AI翻译器 → 中文文件 → EPUB生成器
+paulgraham.com → 爬虫 → Markdown文件 → AI翻译器 → 中文文件 → EPUB/PDF生成器
                      ↓              ↓                        ↓
                   缓存         元数据              翻译日志
 ```
@@ -124,6 +124,11 @@ paulgraham.com → 爬虫 → Markdown文件 → AI翻译器 → 中文文件 �
 - 所有文件名都经过清理以移除非法字符
 - 中文标题可能包含括号中的解释性注释
 - EPUB 文件包含时间戳以避免冲突
+
+### PDF 生成依赖
+- PDF 生成需要 `weasyprint` 库
+- 可能需要安装系统级依赖（如 GTK+、Pango 等）
+- 如果 PDF 生成失败，可以使用 `--no-pdf` 参数跳过
 
 ### 缓存管理
 - 爬取缓存防止重复下载文章

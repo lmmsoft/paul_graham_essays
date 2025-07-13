@@ -260,7 +260,7 @@ def main():
         book.add_item(nav_css)
         
         # 保存EPUB
-        epub_filename = 'paul_graham_essays.epub'
+        epub_filename = 'output/paul_graham_essays.epub'
         epub.write_epub(epub_filename, book)
         print(f"✓ EPUB已创建: {epub_filename}")
     
