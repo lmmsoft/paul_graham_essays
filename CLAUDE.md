@@ -112,9 +112,11 @@ paulgraham.com → 爬虫 → Markdown文件 → 翻译器 → 中文文件 → 
 
 ## 重要说明
 
-### API 密钥
-- AI 翻译器需要在 `ai_translator.py` (第173行) 中配置 SiliconFlow API 密钥
+### API 密钥配置
+- AI 翻译器需要 SiliconFlow API 密钥
+- 复制 `.env.example` 为 `.env` 并填入真实密钥
 - 免费翻译器不需要 API 密钥但有速率限制
+- **重要**: 绝不要将 `.env` 文件提交到版本控制
 
 ### 速率限制
 - 爬虫在请求之间实施 1.5-2 秒延迟
