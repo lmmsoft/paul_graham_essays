@@ -78,38 +78,26 @@ source_file: "Startups in 13 Sentences.md"
 
 Viaweb教会我们最实用的技能之一就是避免过早乐观。我们经历过约20次交易告吹，前10次后就学会将其视为后台进程——除非确认完成，否则不予理会。依赖交易成约会严重打击士气，不仅因为失败率高，更可怕的是这种心态本身就会降低成功率。
 
-[翻译失败 - 原文]Having gotten it down to 13 sentences, I asked myself which I'd choose if I could only keep one.  
-  
-Understand your users. That's the key. The essential task in a startup is to create wealth; the dimension of wealth you have most control over is how much you improve users' lives; and the hardest part of that is knowing what to make for them. Once you know what to make, it's mere effort to make it, and most decent hackers are capable of that.  
-  
-Understanding your users is part of half the principles in this list. That's the reason to launch early, to understand your users. Evolving your idea is the embodiment of understanding your users. Understanding your users well will tend to push you toward making something that makes a few people deeply happy. The most important reason for having surprisingly good customer service is that it helps you understand your users. And understanding your users will even ensure your morale, because when everything else is collapsing around you, having just ten users who love you will keep you going.  
-  
-  
-  
-  
-  
- **Notes**  
-  
-[1] Strictly speaking it's impossible without a time machine.  
-  
-[2] In practice it's more like a ragged comb.  
-  
-[3] Joe thinks one of the founders of Hewlett Packard said it first, but he doesn't remember which.  
-  
-[4] They'd be interchangeable if markets stood still. Since they don't, working twice as fast is better than having twice as much time.  
-  
-  
-  
-  
-  
+将文章浓缩为13句话后，我自问：若只能保留一句，该选哪句？
+
+理解你的用户。这才是关键。创业的核心在于创造财富；而你能掌控的最大财富维度，就是改善用户生活的程度；其中最困难的部分，正是明白该为他们创造什么。一旦确定方向，剩下的不过是执行——大多数合格的黑客都能胜任。
+
+这份清单里半数原则都关乎理解用户。这就是为什么要尽早发布产品——为了理解用户。迭代创意的本质就是理解用户的过程。深度理解用户会推动你打造令少数人狂热喜爱的产品。提供超预期客服的根本意义，也在于它助你理解用户。甚至团队士气的维系也源于此：当周遭一切崩塌时，十个深爱你的用户就足以支撑你继续前进。
+
+**备注**  
+[1] 严格来说没有时间机器就不可能实现  
+[2] 实际情况更接近参差不齐的梳齿  
+[3] 乔认为惠普某位创始人最早说过这话，但记不清具体是谁  
+[4] 若市场静止不动两者本可互换。但市场瞬息万变，速度翻倍永远优于时间翻倍  
+
 ---  
-[Turkish Translation](http://blog.tayfunsen.com/2009/05/13-cumlede-startuplar.html)  
-| | [Spanish Translation](http://www.recursosparapymes.com/las-13-cosas-que-paul-graham-le-diria-a-un-emprendedor/)  
-  
-[Bulgarian Translation](http://www.entrepreneur.bg/7301/dobriyat-startap-v-13-izrecheniya/)  
-| | [Japanese Translation](https://note.com/tokyojack/n/nb5598e41a3c0)  
-  
-[Persian Translation](https://virgool.io/@mahdikhashan/%D9%BE%D8%A7%D9%88%D9%84-%DA%AF%D8%B1%D8%A7%D9%87%D8%A7%D9%85-%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1%D8%AA%D8%A7%D9%BE-%D8%AF%D8%B1-%D8%B3%DB%8C%D8%B2%D8%AF%D9%87-%D8%AC%D9%85%D9%84%D9%87-gduckqxgkoe6)  
+[土耳其语译本](http://blog.tayfunsen.com/2009/05/13-cumlede-startuplar.html)  
+| | [西班牙语译本](http://www.recursosparapymes.com/las-13-cosas-que-paul-graham-le-diria-a-un-emprendedor/)  
+
+[保加利亚语译本](http://www.entrepreneur.bg/7301/dobriyat-startap-v-13-izrecheniya/)  
+| | [日语译本](https://note.com/tokyojack/n/nb5598e41a3c0)  
+
+[波斯语译本](https://virgool.io/@mahdikhashan/%D9%BE%D8%A7%D9%88%D9%84-%DA%AF%D8%B1%D8%A7%D9%87%D8%A7%D9%85-%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1%D8%AA%D8%A7%D9%BE-%D8%AF%D8%B1-%D8%B3%DB%8C%D8%B2%D8%AF%D9%87-%D8%AC%D9%85%D9%84%D9%87-gduckqxgkoe6)  
   
   
   

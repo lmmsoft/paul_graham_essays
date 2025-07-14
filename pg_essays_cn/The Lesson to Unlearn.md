@@ -9,161 +9,126 @@ source_file: "The Lesson to Unlearn.md"
 
 # 需要摒弃的一课
 
-[翻译失败 - 原文]| | [](index.html)  
-  
-|   
-  
-December 2019  
-  
-The most damaging thing you learned in school wasn't something you learned in any specific class. It was learning to get good grades.  
-  
-When I was in college, a particularly earnest philosophy grad student once told me that he never cared what grade he got in a class, only what he learned in it. This stuck in my mind because it was the only time I ever heard anyone say such a thing.  
-  
-For me, as for most students, the measurement of what I was learning completely dominated actual learning in college. I was fairly earnest; I was genuinely interested in most of the classes I took, and I worked hard. And yet I worked by far the hardest when I was studying for a test.  
-  
-In theory, tests are merely what their name implies: tests of what you've learned in the class. In theory you shouldn't have to prepare for a test in a class any more than you have to prepare for a blood test. In theory you learn from taking the class, from going to the lectures and doing the reading and/or assignments, and the test that comes afterward merely measures how well you learned.  
-  
-In practice, as almost everyone reading this will know, things are so different that hearing this explanation of how classes and tests are meant to work is like hearing the etymology of a word whose meaning has changed completely. In practice, the phrase "studying for a test" was almost redundant, because that was when one really studied. The difference between diligent and slack students was that the former studied hard for tests and the latter didn't. No one was pulling all-nighters two weeks into the semester.  
-  
-Even though I was a diligent student, almost all the work I did in school was aimed at getting a good grade on something.  
-  
-To many people, it would seem strange that the preceding sentence has a "though" in it. Aren't I merely stating a tautology? Isn't that what a diligent student is, a straight-A student? That's how deeply the conflation of learning with grades has infused our culture.  
-  
-Is it so bad if learning is conflated with grades? Yes, it is bad. And it wasn't till decades after college, when I was running Y Combinator, that I realized how bad it is.  
-  
-I knew of course when I was a student that studying for a test is far from identical with actual learning. At the very least, you don't retain knowledge you cram into your head the night before an exam. But the problem is worse than that. The real problem is that most tests don't come close to measuring what they're supposed to.  
-  
-If tests truly were tests of learning, things wouldn't be so bad. Getting good grades and learning would converge, just a little late. The problem is that nearly all tests given to students are terribly hackable. Most people who've gotten good grades know this, and know it so well they've ceased even to question it. You'll see when you realize how naive it sounds to act otherwise.  
-  
-Suppose you're taking a class on medieval history and the final exam is coming up. The final exam is supposed to be a test of your knowledge of medieval history, right? So if you have a couple days between now and the exam, surely the best way to spend the time, if you want to do well on the exam, is to read the best books you can find about medieval history. Then you'll know a lot about it, and do well on the exam.  
-  
-No, no, no, experienced students are saying to themselves. If you merely read good books on medieval history, most of the stuff you learned wouldn't be on the test. It's not good books you want to read, but the lecture notes and assigned reading in this class. And even most of that you can ignore, because you only have to worry about the sort of thing that could turn up as a test question. You're looking for sharply-defined chunks of information. If one of the assigned readings has an interesting digression on some subtle point, you can safely ignore that, because it's not the sort of thing that could be turned into a test question. But if the professor tells you that there were three underlying causes of the Schism of 1378, or three main consequences of the Black Death, you'd better know them. And whether they were in fact the causes or consequences is beside the point. For the purposes of this class they are.  
-  
-At a university there are often copies of old exams floating around, and these narrow still further what you have to learn. As well as learning what kind of questions this professor asks, you'll often get actual exam questions. Many professors re-use them. After teaching a class for 10 years, it would be hard not to, at least inadvertently.  
-  
-In some classes, your professor will have had some sort of political axe to grind, and if so you'll have to grind it too. The need for this varies. In classes in math or the hard sciences or engineering it's rarely necessary, but at the other end of the spectrum there are classes where you couldn't get a good grade without it.  
-  
-Getting a good grade in a class on x is so different from learning a lot about x that you have to choose one or the other, and you can't blame students if they choose grades. Everyone judges them by their grades � graduate programs, employers, scholarships, even their own parents.  
-  
-I liked learning, and I really enjoyed some of the papers and programs I wrote in college. But did I ever, after turning in a paper in some class, sit down and write another just for fun? Of course not. I had things due in other classes. If it ever came to a choice of learning or grades, I chose grades. I hadn't come to college to do badly.  
-  
-Anyone who cares about getting good grades has to play this game, or they'll be surpassed by those who do. And at elite universities, that means nearly everyone, since someone who didn't care about getting good grades probably wouldn't be there in the first place. The result is that students compete to maximize the difference between learning and getting good grades.  
-  
-Why are tests so bad? More precisely, why are they so hackable? Any experienced programmer could answer that. How hackable is software whose author hasn't paid any attention to preventing it from being hacked? Usually it's as porous as a colander.  
-  
-Hackable is the default for any test imposed by an authority. The reason the tests you're given are so consistently bad � so consistently far from measuring what they're supposed to measure � is simply that the people creating them haven't made much effort to prevent them from being hacked.  
-  
-But you can't blame teachers if their tests are hackable. Their job is to teach, not to create unhackable tests. The real problem is grades, or more precisely, that grades have been overloaded. If grades were merely a way for teachers to tell students what they were doing right and wrong, like a coach giving advice to an athlete, students wouldn't be tempted to hack tests. But unfortunately after a certain age grades become more than advice. After a certain age, whenever you're being taught, you're usually also being judged.  
-  
-I've used college tests as an example, but those are actually the least hackable. All the tests most students take their whole lives are at least as bad, including, most spectacularly of all, the test that gets them into college. If getting into college were merely a matter of having the quality of one's mind measured by admissions officers the way scientists measure the mass of an object, we could tell teenage kids "learn a lot" and leave it at that. You can tell how bad college admissions are, as a test, from how unlike high school that sounds. In practice, the freakishly specific nature of the stuff ambitious kids have to do in high school is directly proportionate to the hackability of college admissions. The classes you don't care about that are mostly memorization, the random "extracurricular activities" you have to participate in to show you're "well-rounded," the standardized tests as artificial as chess, the "essay" you have to write that's presumably meant to hit some very specific target, but you're not told what.  
-  
-As well as being bad in what it does to kids, this test is also bad in the sense of being very hackable. So hackable that whole industries have grown up to hack it. This is the explicit purpose of test-prep companies and admissions counsellors, but it's also a significant part of the function of private schools.  
-  
-Why is this particular test so hackable? I think because of what it's measuring. Although the popular story is that the way to get into a good college is to be really smart, admissions officers at elite colleges neither are, nor claim to be, looking only for that. What are they looking for? They're looking for people who are not simply smart, but admirable in some more general sense. And how is this more general admirableness measured? The admissions officers feel it. In other words, they accept who they like.  
-  
-So what college admissions is a test of is whether you suit the taste of some group of people. Well, of course a test like that is going to be hackable. And because it's both very hackable and there's (thought to be) a lot at stake, it's hacked like nothing else. That's why it distorts your life so much for so long.  
-  
-It's no wonder high school students often feel alienated. The shape of their lives is completely artificial.  
-  
-But wasting your time is not the worst thing the educational system does to you. The worst thing it does is to train you that the way to win is by hacking bad tests. This is a much subtler problem that I didn't recognize until I saw it happening to other people.  
-  
-When I started advising startup founders at Y Combinator, especially young ones, I was puzzled by the way they always seemed to make things overcomplicated. How, they would ask, do you raise money? What's the trick for making venture capitalists want to invest in you? The best way to make VCs want to invest in you, I would explain, is to actually be a good investment. Even if you could trick VCs into investing in a bad startup, you'd be tricking yourselves too. You're investing time in the same company you're asking them to invest money in. If it's not a good investment, why are you even doing it?  
-  
-Oh, they'd say, and then after a pause to digest this revelation, they'd ask: What makes a startup a good investment?  
-  
-So I would explain that what makes a startup promising, not just in the eyes of investors but in fact, is [_growth_](growth.html). Ideally in revenue, but failing that in usage. What they needed to do was get lots of users.  
-  
-How does one get lots of users? They had all kinds of ideas about that. They needed to do a big launch that would get them "exposure." They needed influential people to talk about them. They even knew they needed to launch on a tuesday, because that's when one gets the most attention.  
-  
-No, I would explain, that is not how to get lots of users. The way you get lots of users is to make the product really great. Then people will not only use it but recommend it to their friends, so your growth will be exponential once you [_get it started_](ds.html).  
-  
-At this point I've told the founders something you'd think would be completely obvious: that they should make a good company by making a good product. And yet their reaction would be something like the reaction many physicists must have had when they first heard about the theory of relativity: a mixture of astonishment at its apparent genius, combined with a suspicion that anything so weird couldn't possibly be right. Ok, they would say, dutifully. And could you introduce us to such-and-such influential person? And remember, we want to launch on Tuesday.  
-  
-It would sometimes take founders years to grasp these simple lessons. And not because they were lazy or stupid. They just seemed blind to what was right in front of them.  
-  
-Why, I would ask myself, do they always make things so complicated? And then one day I realized this was not a rhetorical question.  
-  
-Why did founders tie themselves in knots doing the wrong things when the answer was right in front of them? Because that was what they'd been trained to do. Their education had taught them that the way to win was to hack the test. And without even telling them they were being trained to do this. The younger ones, the recent graduates, had never faced a non-artificial test. They thought this was just how the world worked: that the first thing you did, when facing any kind of challenge, was to figure out what the trick was for hacking the test. That's why the conversation would always start with how to raise money, because that read as the test. It came at the end of YC. It had numbers attached to it, and higher numbers seemed to be better. It must be the test.  
-  
-There are certainly big chunks of the world where the way to win is to hack the test. This phenomenon isn't limited to schools. And some people, either due to ideology or ignorance, claim that this is true of startups too. But it isn't. In fact, one of the most striking things about startups is the degree to which you win by simply doing good work. There are edge cases, as there are in anything, but in general you win by getting users, and what users care about is whether the product does what they want.  
-  
-Why did it take me so long to understand why founders made startups overcomplicated? Because I hadn't realized explicitly that schools train us to win by hacking bad tests. And not just them, but me! I'd been trained to hack bad tests too, and hadn't realized it till decades later.  
-  
-I had lived as if I realized it, but without knowing why. For example, I had avoided working for big companies. But if you'd asked why, I'd have said it was because they were bogus, or bureaucratic. Or just yuck. I never understood how much of my dislike of big companies was due to the fact that you win by hacking bad tests.  
-  
-Similarly, the fact that the tests were unhackable was a lot of what attracted me to startups. But again, I hadn't realized that explicitly.  
-  
-I had in effect achieved by successive approximations something that may have a closed-form solution. I had gradually undone my training in hacking bad tests without knowing I was doing it. Could someone coming out of school banish this demon just by knowing its name, and saying begone? It seems worth trying.  
-  
-Merely talking explicitly about this phenomenon is likely to make things better, because much of its power comes from the fact that we take it for granted. After you've noticed it, it seems the elephant in the room, but it's a pretty well camouflaged elephant. The phenomenon is so old, and so pervasive. And it's simply the result of neglect. No one meant things to be this way. This is just what happens when you combine learning with grades, competition, and the naive assumption of unhackability.  
-  
-It was mind-blowing to realize that two of the things I'd puzzled about the most � the bogusness of high school, and the difficulty of getting founders to see the obvious � both had the same cause. It's rare for such a big block to slide into place so late.  
-  
-Usually when that happens it has implications in a lot of different areas, and this case seems no exception. For example, it suggests both that education could be done better, and how you might fix it. But it also suggests a potential answer to the question all big companies seem to have: how can we be more like a startup? I'm not going to chase down all the implications now. What I want to focus on here is what it means for individuals.  
-  
-To start with, it means that most ambitious kids graduating from college have something they may want to unlearn. But it also changes how you look at the world. Instead of looking at all the different kinds of work people do and thinking of them vaguely as more or less appealing, you can now ask a very specific question that will sort them in an interesting way: to what extent do you win at this kind of work by hacking bad tests?  
-  
-It would help if there was a way to recognize bad tests quickly. Is there a pattern here? It turns out there is.  
-  
-Tests can be divided into two kinds: those that are imposed by authorities, and those that aren't. Tests that aren't imposed by authorities are inherently unhackable, in the sense that no one is claiming they're tests of anything more than they actually test. A football match, for example, is simply a test of who wins, not which team is better. You can tell that from the fact that commentators sometimes say afterward that the better team won. Whereas tests imposed by authorities are usually proxies for something else. A test in a class is supposed to measure not just how well you did on that particular test, but how much you learned in the class. While tests that aren't imposed by authorities are inherently unhackable, those imposed by authorities have to be made unhackable. Usually they aren't. So as a first approximation, bad tests are roughly equivalent to tests imposed by authorities.  
-  
-You might actually like to win by hacking bad tests. Presumably some people do. But I bet most people who find themselves doing this kind of work don't like it. They just take it for granted that this is how the world works, unless you want to drop out and be some kind of hippie artisan.  
-  
-I suspect many people implicitly assume that working in a field with bad tests is the price of making lots of money. But that, I can tell you, is false. It used to be true. In the mid-twentieth century, when the economy was [_composed of oligopolies_](re.html), the only way to the top was by playing their game. But it's not true now. There are now ways to get rich by doing good work, and that's part of the reason people are so much more excited about getting rich than they used to be. When I was a kid, you could either become an engineer and make cool things, or make lots of money by becoming an "executive." Now you can make lots of money by making cool things.  
-  
-Hacking bad tests is becoming less important as the link between work and authority erodes. The erosion of that link is one of the most important trends happening now, and we see its effects in almost every kind of work people do. Startups are one of the most visible examples, but we see much the same thing in writing. Writers no longer have to submit to publishers and editors to reach readers; now they can go direct.  
-  
-The more I think about this question, the more optimistic I get. This seems one of those situations where we don't realize how much something was holding us back until it's eliminated. And I can foresee the whole bogus edifice crumbling. Imagine what happens as more and more people start to ask themselves if they want to win by hacking bad tests, and decide that they don't. The kinds of work where you win by hacking bad tests will be starved of talent, and the kinds where you win by doing good work will see an influx of the most ambitious people. And as hacking bad tests shrinks in importance, education will evolve to stop training us to do it. Imagine what the world could look like if that happened.  
-  
-This is not just a lesson for individuals to unlearn, but one for society to unlearn, and we'll be amazed at the energy that's liberated when we do.  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-**Notes**  
-  
-[1] If using tests only to measure learning sounds impossibly utopian, that is already the way things work at Lambda School. Lambda School doesn't have grades. You either graduate or you don't. The only purpose of tests is to decide at each stage of the curriculum whether you can continue to the next. So in effect the whole school is pass/fail.  
-  
-[2] If the final exam consisted of a long conversation with the professor, you could prepare for it by reading good books on medieval history. A lot of the hackability of tests in schools is due to the fact that the same test has to be given to large numbers of students.  
-  
-[3] Learning is the naive algorithm for getting good grades.  
-  
-[4] [_Hacking_](gba.html) has multiple senses. There's a narrow sense in which it means to compromise something. That's the sense in which one hacks a bad test. But there's another, more general sense, meaning to find a surprising solution to a problem, often by thinking differently about it. Hacking in this sense is a wonderful thing. And indeed, some of the hacks people use on bad tests are impressively ingenious; the problem is not so much the hacking as that, because the tests are hackable, they don't test what they're meant to.  
-  
-[5] The people who pick startups at Y Combinator are similar to admissions officers, except that instead of being arbitrary, their acceptance criteria are trained by a very tight feedback loop. If you accept a bad startup or reject a good one, you will usually know it within a year or two at the latest, and often within a month.  
-  
-[6] I'm sure admissions officers are tired of reading applications from kids who seem to have no personality beyond being willing to seem however they're supposed to seem to get accepted. What they don't realize is that they are, in a sense, looking in a mirror. The lack of authenticity in the applicants is a reflection of the arbitrariness of the application process. A dictator might just as well complain about the lack of authenticity in the people around him.  
-  
-[7] By good work, I don't mean morally good, but good in the sense in which a good craftsman does good work.  
-  
-[8] There are borderline cases where it's hard to say which category a test falls in. For example, is raising venture capital like college admissions, or is it like selling to a customer?  
-  
-[9] Note that a good test is merely one that's unhackable. Good here doesn't mean morally good, but good in the sense of working well. The difference between fields with bad tests and good ones is not that the former are bad and the latter are good, but that the former are bogus and the latter aren't. But those two measures are not unrelated. As Tara Ploughman said, the path from good to evil goes through bogus.  
-  
-[10] People who think the recent increase in [_economic inequality_](ineq.html) is due to changes in tax policy seem very naive to anyone with experience in startups. Different people are getting rich now than used to, and they're getting much richer than mere tax savings could make them.  
-  
-[11] Note to tiger parents: you may think you're training your kids to win, but if you're training them to win by hacking bad tests, you are, as parents so often do, training them to fight the last war.  
-  
-  
-  
- **Thanks** to Austen Allred, Trevor Blackwell, Patrick Collison, Jessica Livingston, Robert Morris, and Harj Taggar for reading drafts of this.  
-  
-  
+| | [](index.html)  
+
+|  
+
+2019年12月  
+
+你在学校学到最具破坏性的一课，并非来自任何特定课程，而是学会了如何取得好成绩。  
+
+大学时期，一位异常认真的哲学系研究生曾告诉我，他从不关心某门课的成绩，只在乎自己学到了什么。这句话令我记忆犹新，因为这是我唯一一次听到有人这么说。  
+
+对我和大多数学生而言，大学里衡量学习成果的标尺完全凌驾于真实学习之上。我算是相当认真的学生：对多数课程怀有真诚兴趣，也勤奋用功。但最拼命用功的时刻，永远是在备考期间。  
+
+理论上，考试正如其名——是对课程所学内容的检验。理论上你无需专门备考，就像体检前无需特别准备一样。理论上你通过上课、听讲、阅读和作业来学习知识，随后的考试只是衡量学习效果的标尺。  
+
+现实中——正如几乎所有读者都心知肚明的——实际情况与此大相径庭，听到这种关于考试本质的解释，就像在听某个词义已彻底改变的词源故事。"为考试复习"这个说法几乎是冗余的，因为这才是真正用功的时刻。勤奋学生与懒散学生的区别，在于前者会为考试拼命复习，后者则不会。没人会在开学两周后就熬夜苦读。  
+
+尽管我是个勤奋学生，但我在校期间几乎所有努力都指向同一个目标：在某件事上取得好成绩。  
+
+对许多人而言，前文出现"尽管"二字会显得奇怪。这难道不是同义反复吗？勤奋学生不就是全优生吗？这正是"学习等同于成绩"的观念在我们文化中根深蒂固的明证。  
+
+将学习与成绩混为一谈真有那么糟糕？是的，确实很糟。直到大学毕业数十年后，在运营Y Combinator时，我才真正意识到其危害程度。  
+
+学生时代我当然知道，为考试复习与真实学习相去甚远。至少，考前突击的知识很难长久留存。但问题远比这严重——真正的问题在于，多数考试根本测不出它们宣称要测量的内容。  
+
+如果考试真能检验学习效果，情况还不至于如此糟糕。取得好成绩与真实学习虽有时差，终会趋于一致。问题在于，几乎所有学生面对的考试都存在严重漏洞。多数成绩优异者心知肚明，甚至已对此习以为常。当你意识到反其道而行之有多么天真时，就会明白这一点。  
+
+假设你正在修读中世纪史课程，期末考试临近。这场考试本应检验你对中世纪史的掌握程度，对吧？那么在考前这几天，要取得好成绩，最佳方式理应是阅读能找到的最好的中世纪史著作。这样你就能掌握大量知识，考试自然出色。  
+
+不，不，不——经验丰富的学生会在心里摇头。如果只是阅读优质的中世纪史著作，你学到的多数内容根本不会出现在考卷上。你需要研读的不是学术专著，而是本课程的讲义和指定读物。即便如此，其中大部分也可忽略——你只需关注可能转化为考题的信息点。你要寻找的是边界清晰的知识点。如果某篇指定读物对某个微妙问题展开有趣探讨，你大可跳过，因为这不可能成为考题。但若教授强调1378年教会大分裂的三个根本原因，或黑死病的三大影响，你必须牢记。至于这些是否确为原因或影响并不重要——在这门课的语境下，它们就是标准答案。  
+
+大学里常流传往届试题，这进一步缩小了学习范围。你不仅能摸清教授的命题风格，甚至可能遇到原题重现。许多教授会重复使用试题——连续十年讲授同一门课，想完全不重复都难，至少会无意中重复。  
+
+某些课程中，教授可能抱有某种政治立场，这时你也必须迎合。这种需求因课而异：数学、自然科学或工程类课程很少需要，但有些课程若不如此就难获高分。  
+
+在X课程取得高分与深入学习X学科差异如此之大，以至于你必须二选一。而当学生选择追求成绩时，你无法责备他们——研究生项目、雇主、奖学金甚至父母，所有人都在用成绩评判他们。  
+
+我热爱学习，大学期间某些论文和程序确实带给我快乐。但交完某门课的论文后，我可曾纯粹出于兴趣再写一篇？当然没有——其他课程的作业还在等着。当学习与成绩冲突时，我选择成绩。我来大学可不是为了表现糟糕。  
+
+任何在意成绩的人都不得不参与这场游戏，否则就会被参与者超越。在精英大学，这意味着几乎所有人——毕竟，不在乎成绩的人最初就不会来到这里。结果就是，学生们竞相扩大"真实学习"与"获取高分"之间的差距。  
+
+为何考试如此糟糕？更准确地说，为何它们如此容易被钻空子？任何有经验的程序员都能回答：如果开发者根本没考虑防漏洞措施，软件会有多脆弱？通常就像漏勺般千疮百孔。  
+
+对权威强加的测试而言，"可钻空子"是默认状态。你面对的考试之所以始终糟糕——始终远离其声称要测量的目标——根本原因在于出题者并未真正努力防止漏洞利用。  
+
+但不能因此责备教师。他们的职责是教学，而非设计无漏洞的考试。真正的问题在于成绩，或者说成绩被赋予了过多功能。如果成绩只是教师指导学生改进的工具，就像教练给运动员的建议，学生就不会想钻空子。但不幸的是，超过某个年龄后，成绩就不再只是建议——每当接受教育时，你通常也在被评判。  
+
+我以大学考试为例，但它们其实是最不易钻空子的。多数学生一生中参加的所有考试至少同样糟糕，其中最突出的莫过于大学入学考试。如果大学录取只是招生官像科学家测量物体质量那样评估心智品质，我们大可以告诉青少年"多学习"就够了。从高中生活与这种理想状态的差距，就能看出大学招生作为测试有多糟糕。现实中，雄心勃勃的高中生被迫完成的那些怪异任务，与大学招生的可钻空子程度直接相关：那些全靠死记硬背的无趣课程，为显示"全面发展"而参加的随机"课外活动"，像国际象棋般人为设计的标准化考试，以及那篇必须写却不知评判标准的"申请文书"。  
+
+这套制度不仅毒害青少年，作为测试也极易被钻空子——漏洞大到催生出完整产业链。考试辅导机构和升学顾问公开以此为业，私立学校也将其作为重要职能。  
+
+为何这项测试特别容易被钻空子？我认为根源在于其测量对象。尽管流行说法是"进入好大学就要非常聪明"，但精英大学的招生官既不（也无法）仅凭此筛选。他们在寻找什么？是那些不仅聪明，而且在更广泛意义上令人欣赏的人。这种"广泛意义上的优秀"如何衡量？招生官凭感觉判断——换言之，他们录取自己喜欢的人。  
+
+因此大学招生本质上测试的是：你是否符合某群人的口味。这种测试当然容易被钻空子。而由于它既极易操作又（被认为）事关重大，其被钻空子的程度无与伦比。这就是为什么它会长期严重扭曲你的人生。  
+
+高中生常感到疏离并不奇怪——他们的生活形态完全是人为设计的。  
+
+但教育体系对你所做最恶劣之事，不是浪费时间，而是训练你通过钻空子来赢得糟糕的测试。这个更隐蔽的问题，直到我看见它发生在别人身上才意识到。  
+
+在Y Combinator指导初创创始人（尤其是年轻人）时，他们总把事情过度复杂化的方式令我困惑。他们会问：如何融资？让风投愿意投资的诀窍是什么？我会解释：让风投想投资你的最佳方式，就是真正成为优质项目。即使你能骗风投投资烂项目，其实也是在骗自己——你在用时间投资自己寻求融资的公司。如果这不是好投资，你为何要做？  
+
+"哦，"他们会说，消化片刻后又问：那什么才算好项目？  
+
+于是我解释：初创公司的真正价值（不仅在投资人眼中，事实上也是如此）在于增长——最好是收入增长，退而求其次是用户增长。他们需要争取大量用户。  
+
+如何获取大量用户？他们总有各种奇思妙想：需要盛大发布来获得"曝光"；需要意见领袖推荐；甚至知道要在周二发布，因为那天关注度最高。  
+
+不，我会解释：这不是获取用户的方式。真正的方法是打造卓越产品。这样用户不仅会使用，还会推荐给朋友，一旦启动增长就会呈指数级上升。  
+
+至此，我已向创始人阐明了看似不言而喻的道理：要创建好公司，就该做出好产品。但他们的反应，想必如同物理学家初闻相对论：既惊叹其看似天才的洞见，又怀疑如此怪异的理论不可能正确。"好的，"他们会顺从地答应，接着问："能引荐某位意见领袖吗？记得我们要在周二发布。"  
+
+有时创始人需要数年才能领悟这些简单道理。并非因为他们懒惰或愚蠢——他们只是对眼前的事实视而不见。  
+
+为何他们总把事情复杂化？某天我突然意识到，这不是反问句。  
+
+为何创始人在答案显而易见时仍纠缠于错误方法？因为这是他们被训练出的思维模式。教育体系教会他们：获胜之道就是钻测试的空子。这种训练甚至是潜移默化的——年轻的应届毕业生从未面对过非人为设计的测试。他们以为世界本就如此：面对任何挑战，首先要找出钻空子的窍门。所以对话总是从"如何融资"开始，因为在他们看来这就是测试——YC孵化结束时的考核，附着可量化的数字，数字越大似乎越好。这一定是测试。  
+
+世界上确实存在许多需要通过钻空子获胜的领域，这种现象不仅限于学校。有些人出于意识形态或无知，声称初创公司也是如此。但事实并非如此。实际上，初创领域最显著的特点恰恰在于：你完全可以通过踏实工作获胜。虽然像所有领域一样存在边界案例，但通常你通过获取用户获胜，而用户只关心产品是否满足需求。  
+
+为何我花了这么久才明白创始人复杂化问题的原因？因为我没明确意识到：学校训练我们通过钻空子赢得糟糕测试。不仅训练了他们，也训练了我！我也被如此训练过，只是数十年后才发现。  
+
+我的生活方式仿佛已意识到这点，却不明白原因。例如我始终避免为大公司工作。若被问及原因，我会说因为它们虚伪、官僚或令人厌恶。但从没意识到，我对大公司的反感很大程度上源于其"通过钻空子获胜"的机制。  
+
+同理，测试无法被钻空子这一特质，正是吸引我投身初创领域的重要原因——但同样，我并未明确意识到这点。  
+
+我实际上通过逐步逼近的方式，达成了某种可能存在简洁解的问题：在不知不觉中，逐渐消除了"钻空子应对糟糕测试"的思维定式。刚毕业的人能否通过认知并驱除这种思维定式来摆脱它？值得尝试。  
+
+仅仅明确讨论这种现象就可能改善现状，因为其力量很大程度上源于我们的习以为常。一旦注意到它，就会觉得它如同房间里的大象——只是这头大象伪装得极好。这种现象如此古老而普遍，纯粹是长期放任的结果。没人刻意设计这种局面——当学习与成绩、竞争以及"测试不可被钻空子"的天真假设结合时，就会自然产生这种结果。  
+
+当我意识到两个长期困惑的问题——高中的虚伪性，以及让创始人看清简单事实的困难度——竟有相同根源时，震撼无以复加。如此重大的认知拼图在人生后期才归位实属罕见。  
+
+通常这种情况会引发多领域连锁反应，这次也不例外。例如它既暗示教育体系可以改进，也指出了改进方向；同时为所有大公司共有的疑问"如何像初创公司那样运作"提供了潜在答案。不过此刻我想聚焦于它对个人的意义。  
+
+首先，这意味着多数雄心勃勃的大学毕业生可能需要摒弃某些思维习惯。但它也改变了你观察世界的视角：面对形形色色的工作，不再模糊地判断吸引力高低，而是可以提出一个精准问题来有趣地分类——这种工作能在多大程度上通过钻空子获胜？  
+
+如果能快速识别糟糕测试会很有帮助。是否存在识别模式？确实存在。  
+
+测试可分为两类：权威强加的与非权威强加的。后者本质上无法被钻空子，因为没人声称它们能测量超出实际测试范围的内容。例如足球比赛只检验谁获胜，而非哪支队伍更强——从赛后评论员有时说"强队获胜"就能看出这点。而权威强加的测试通常是他事物的代理变量——课堂测试本应测量的不仅是当次测试表现，还包括课程学习效果。非权威测试天然防钻空子，权威测试则需要人为设计防钻空子机制（通常并未设计）。因此粗略来说，糟糕测试≈权威强加的测试。  
+
+或许有人确实喜欢通过钻空子获胜——确实存在这种人。但我敢说多数从事这类工作的人并非出于喜爱，只是默认这就是世界运行的方式，除非你选择退出当个嬉皮士匠人。  
+
+许多人可能默认：在存在糟糕测试的领域工作是赚大钱必须付出的代价。但我可以告诉你，这是错的。过去确实如此——二十世纪中叶当经济被寡头垄断时，唯有遵守游戏规则才能登上顶峰。但如今不同了：现在完全可以通过踏实工作致富，这正是人们对致富空前热情的部分原因。我小时候，你要么成为工程师创造酷炫产品，要么成为"高管"赚大钱。如今你可以通过创造酷炫产品赚大钱。  
+
+随着工作与权威之间纽带的弱化，钻空子的重要性正在降低。这种弱化是当下最重要的趋势之一，几乎在所有工作领域都能看到其影响。初创公司是最显著的例子，但写作领域同样如此——作家不再需要屈服于出版商和编辑就能触达读者，现在可以直接面对市场。  
+
+越是思考这个问题，我就越乐观。这属于那种直到枷锁解除，我们才意识到其束缚有多强的情境。我能预见整个虚伪体系土崩瓦解的景象——当越来越多人开始自问"是否想通过钻空子获胜"并选择否定答案时，依赖钻空子的领域将面临人才流失，而依靠踏实工作的领域将迎来最具雄心者的涌入。随着钻空子重要性降低，教育体系也将进化，不再训练我们这种思维。想象那将造就怎样的世界。  
+
+这不仅是个人需要摒弃的一课，更是社会需要摒弃的一课。当我们真正做到时，将被释放出的巨大能量所震撼。  
+
+**注释**  
+[1] 若"考试仅用于测量学习效果"听起来像乌托邦，这已是Lambda学校的运作方式。该校没有成绩，只有毕业与否。测试唯一目的是判断学生能否进入下一阶段，实质上是全员通过制。  
+[7] "踏实工作"指匠人式的专业工作，无关道德评判。  
+[10] 认为近期经济不平等加剧源于税收政策变化的人，在初创从业者眼中天真得可笑——如今致富的群体与过去不同，其财富规模远超税收优惠能解释的范围。  
+[11] 虎爸虎妈们注意：你可能以为在训练孩子获胜，但若训练的是钻空子能力，你正如多数家长那样，在训练孩子打上一场战争。  
+
+**致谢**（略）  
+
 ---  
-  
-  
----  
-[Russian Translation](https://blog.dsent.me/lesson-to-unlearn/)  
-| | [Arabic Translation](https://www.lintschool.com/post/the-lessons-to-unlearn)  
-  
-[Swedish Translation](http://www.jensbackbom.se/2020/09/25/kunskap-som-gor-mer-skada-an-nytta/)  
+[俄语译本](https://blog.dsent.me/lesson-to-unlearn/)  
+| | [阿拉伯语译本](https://www.lintschool.com/post/the-lessons-to-unlearn)  
+[瑞典语译本](http://www.jensbackbom.se/2020/09/25/kunskap-som-gor-mer-skada-an-nytta/)  
   
   
   

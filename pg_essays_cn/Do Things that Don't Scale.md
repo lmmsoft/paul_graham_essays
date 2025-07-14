@@ -9,179 +9,73 @@ source_file: "Do Things that Don't Scale.md"
 
 # 做那些无法规模化的事
 
-[翻译失败 - 原文]| | [](index.html)  
+| | [](index.html)  
   
 |   
   
-|  **Want to start a startup?** Get funded by [Y Combinator](http://ycombinator.com/apply.html).    
+|  **想创办一家创业公司？** 获得 [Y Combinator](http://ycombinator.com/apply.html) 的资助。    
   
 ---  
   
-July 2013  
+2013年7月  
   
-One of the most common types of advice we give at Y Combinator is to do things that don't scale. A lot of would-be founders believe that startups either take off or don't. You build something, make it available, and if you've made a better mousetrap, people beat a path to your door as promised. Or they don't, in which case the market must not exist. [1]  
+在Y Combinator，我们给出的一条最常见建议是：做那些无法规模化的事。许多潜在的创始人认为，创业公司要么一飞冲天，要么彻底失败。你打造一个产品，把它推向市场，如果它真的足够好，人们就会如约而至。否则，就说明市场根本不存在。[1]  
   
-Actually startups take off because the founders make them take off. There may be a handful that just grew by themselves, but usually it takes some sort of push to get them going. A good metaphor would be the cranks that car engines had before they got electric starters. Once the engine was going, it would keep going, but there was a separate and laborious process to get it going.  
+实际上，创业公司的起飞是因为创始人让它们起飞。也许有少数公司能自行成长，但通常都需要某种推力才能启动。一个恰当的比喻是汽车引擎在电动启动器出现之前的手摇曲柄——一旦引擎运转起来，它就能持续运转，但需要一个独立且费力的过程来启动它。  
   
- **Recruit**  
+ **招募用户**  
   
-The most common unscalable thing founders have to do at the start is to recruit users manually. Nearly all startups have to. You can't wait for users to come to you. You have to go out and get them.  
+创业初期创始人最常做的不可规模化的事就是手动招募用户。几乎所有初创公司都必须这么做。你不能坐等用户上门，必须主动出击。  
   
-Stripe is one of the most successful startups we've funded, and the problem they solved was an urgent one. If anyone could have sat back and waited for users, it was Stripe. But in fact they're famous within YC for aggressive early user acquisition.  
+Stripe是我们资助过的最成功的创业公司之一，他们解决的问题非常紧迫。如果说有哪家公司可以坐等用户上门，那一定是Stripe。但事实上，他们在YC内部以早期激进获取用户而闻名。  
   
-Startups building things for other startups have a big pool of potential users in the other companies we've funded, and none took better advantage of it than Stripe. At YC we use the term "Collison installation" for the technique they invented. More diffident founders ask "Will you try our beta?" and if the answer is yes, they say "Great, we'll send you a link." But the Collison brothers weren't going to wait. When anyone agreed to try Stripe they'd say "Right then, give me your laptop" and set them up on the spot.  
+为其他创业公司开发产品的初创公司，可以从我们资助过的其他公司中找到大量潜在用户，而Stripe是其中最善于利用这一点的。在YC，我们用"Collison安装"来称呼他们发明的技术。更胆怯的创始人会问："你愿意试用我们的测试版吗？"如果对方同意，他们会说："太好了，我们会给你发送链接。"但Collison兄弟不会等待。当有人同意试用Stripe时，他们会立刻说："好的，把你的笔记本电脑给我"，然后当场帮他们设置好。  
   
-There are two reasons founders resist going out and recruiting users individually. One is a combination of shyness and laziness. They'd rather sit at home writing code than go out and talk to a bunch of strangers and probably be rejected by most of them. But for a startup to succeed, at least one founder (usually the CEO) will have to spend a lot of time on sales and marketing. [2]  
+创始人抗拒亲自招募用户有两个原因。一是害羞和懒惰的结合。他们宁愿坐在家里写代码，也不愿走出去与一群陌生人交谈并可能被大多数人拒绝。但要让创业公司成功，至少有一位创始人（通常是CEO）必须在销售和营销上花费大量时间。[2]  
   
-The other reason founders ignore this path is that the absolute numbers seem so small at first. This can't be how the big, famous startups got started, they think. The mistake they make is to underestimate the power of compound growth. We encourage every startup to measure their progress by weekly [growth rate](growth.html). If you have 100 users, you need to get 10 more next week to grow 10% a week. And while 110 may not seem much better than 100, if you keep growing at 10% a week you'll be surprised how big the numbers get. After a year you'll have 14,000 users, and after 2 years you'll have 2 million.  
+另一个原因是初始阶段的绝对数字看起来太小了。他们认为，那些著名的大公司肯定不是这样起步的。他们犯的错误是低估了复合增长的力量。我们鼓励每家初创公司以周增长率来衡量进展。如果你有100个用户，下周需要再获得10个才能实现10%的增长。虽然110看起来只比100多一点点，但如果你保持每周10%的增长，最终的数字会大得惊人。一年后你将拥有14,000名用户，两年后将达到200万。  
   
-You'll be doing different things when you're acquiring users a thousand at a time, and growth has to slow down eventually. But if the market exists you can usually start by recruiting users manually and then gradually switch to less manual methods. [3]  
+当你能一次性获取上千用户时，方法会有所不同，增长最终也必然会放缓。但如果市场存在，你通常可以从手动招募用户开始，然后逐步转向更自动化的方法。[3]  
   
-Airbnb is a classic example of this technique. Marketplaces are so hard to get rolling that you should expect to take heroic measures at first. In Airbnb's case, these consisted of going door to door in New York, recruiting new users and helping existing ones improve their listings. When I remember the Airbnbs during YC, I picture them with rolly bags, because when they showed up for tuesday dinners they'd always just flown back from somewhere.  
+Airbnb就是这种策略的经典案例。市场类业务起步极为艰难，你必须做好初期采取极端措施的准备。对Airbnb来说，这些措施包括在纽约挨家挨户拜访，招募新用户并帮助现有用户优化房源。当我回忆YC时期的Airbnb团队时，脑海中浮现的是他们拖着滚轮行李箱的形象——因为每周二参加晚餐会时，他们总是刚从某个地方飞回来。  
   
- **Fragile**  
+ **脆弱性**  
   
-Airbnb now seems like an unstoppable juggernaut, but early on it was so fragile that about 30 days of going out and engaging in person with users made the difference between success and failure.  
+如今的Airbnb看似势不可挡，但早期它非常脆弱，大约30天的亲自用户互动决定了它的成败。  
   
-That initial fragility was not a unique feature of Airbnb. Almost all startups are fragile initially. And that's one of the biggest things inexperienced founders and investors (and reporters and know-it-alls on forums) get wrong about them. They unconsciously judge larval startups by the standards of established ones. They're like someone looking at a newborn baby and concluding "there's no way this tiny creature could ever accomplish anything."  
+这种初始脆弱性并非Airbnb独有。几乎所有初创公司在初期都很脆弱。而缺乏经验的创始人、投资者（以及论坛上的记者和万事通）最容易犯的错误之一，就是无意识地用成熟公司的标准来评判初创公司。这就像看着一个新生儿断言"这个小东西永远不可能有所成就"。  
   
-It's harmless if reporters and know-it-alls dismiss your startup. They always get things wrong. It's even ok if investors dismiss your startup; they'll change their minds when they see growth. The big danger is that you'll dismiss your startup yourself. I've seen it happen. I often have to encourage founders who don't see the full potential of what they're building. Even Bill Gates made that mistake. He returned to Harvard for the fall semester after starting Microsoft. He didn't stay long, but he wouldn't have returned at all if he'd realized Microsoft was going to be even a fraction of the size it turned out to be. [4]  
+如果记者和万事通们轻视你的创业公司，这无伤大雅——他们总是看错。即使投资者不看好也没关系，当他们看到增长时就会改变主意。真正的危险是你自己轻视自己的创业公司。我见过这种情况。我经常需要鼓励那些没有完全认识到自己项目潜力的创始人。就连比尔·盖茨也犯过这个错误——在创立微软后，他仍返回哈佛继续秋季学期。虽然他没有待太久，但如果他当时意识到微软能有后来的规模，他根本不会回去。[4]  
   
-The question to ask about an early stage startup is not "is this company taking over the world?" but "how big could this company get if the founders did the right things?" And the right things often seem both laborious and inconsequential at the time. Microsoft can't have seemed very impressive when it was just a couple guys in Albuquerque writing Basic interpreters for a market of a few thousand hobbyists (as they were then called), but in retrospect that was the optimal path to dominating microcomputer software. And I know Brian Chesky and Joe Gebbia didn't feel like they were en route to the big time as they were taking "professional" photos of their first hosts' apartments. They were just trying to survive. But in retrospect that too was the optimal path to dominating a big market.  
+评估早期创业公司时，问题不该是"这家公司能征服世界吗？"，而应是"如果创始人做对了每件事，这家公司能有多大？"而这些"正确的事"在当时往往看起来既费力又微不足道。当微软还只是阿尔伯克基的几个家伙为几千名爱好者（当时这么称呼）编写Basic解释器时，它并不起眼。但回过头看，这正是称霸微机软件的最佳路径。我也知道Brian Chesky和Joe Gebbia在为他们第一批房东的公寓拍摄"专业"照片时，并不觉得自己在通往成功的路上——他们只是为了生存。但事后证明，这也是占领大市场的最佳路径。  
   
-How do you find users to recruit manually? If you build something to solve [your own problems](startupideas.html), then you only have to find your peers, which is usually straightforward. Otherwise you'll have to make a more deliberate effort to locate the most promising vein of users. The usual way to do that is to get some initial set of users by doing a comparatively untargeted launch, and then to observe which kind seem most enthusiastic, and seek out more like them. For example, Ben Silbermann noticed that a lot of the earliest Pinterest users were interested in design, so he went to a conference of design bloggers to recruit users, and that worked well. [5]  
+如何找到需要手动招募的用户？如果你为解决自己的问题而开发产品，那么只需找到与你类似的人，这通常很简单。否则，你就需要有意识地寻找最有潜力的用户群体。通常的做法是：通过相对宽泛的发布获得初始用户，观察哪类用户最热情，然后寻找更多类似用户。例如，Ben Silbermann注意到Pinterest最早期的用户很多对设计感兴趣，于是他去参加设计博主会议招募用户，效果很好。[5]  
   
- **Delight**  
+ **极致体验**  
   
-You should take extraordinary measures not just to acquire users, but also to make them happy. For as long as they could (which turned out to be surprisingly long), Wufoo sent each new user a hand-written thank you note. Your first users should feel that signing up with you was one of the best choices they ever made. And you in turn should be racking your brains to think of new ways to delight them.  
+你不仅需要采取非常手段获取用户，还要让他们感到惊喜。Wufoo在尽可能长的时间内（结果证明这个时间出乎意料地长）坚持给每位新用户手写感谢信。你的首批用户应该觉得选择你是他们做过的最佳决定之一。相应地，你也应该绞尽脑汁想出让他们惊喜的新方法。  
   
-Why do we have to teach startups this? Why is it counterintuitive for founders? Three reasons, I think.  
+为什么我们需要教创业者这些？为什么这对创始人来说不直观？我认为有三个原因。  
   
-One is that a lot of startup founders are trained as engineers, and customer service is not part of the training of engineers. You're supposed to build things that are robust and elegant, not be slavishly attentive to individual users like some kind of salesperson. Ironically, part of the reason engineering is traditionally averse to handholding is that its traditions date from a time when engineers were less powerful — when they were only in charge of their narrow domain of building things, rather than running the whole show. You can be ornery when you're Scotty, but not when you're Kirk.  
+一是许多创业创始人接受的是工程师训练，而客户服务不在工程师的培养范围内。工程师被要求打造健壮优雅的产品，而不是像销售员那样卑躬屈膝地关注个体用户。具有讽刺意味的是，工程传统上排斥"手把手指导"的部分原因在于，这些传统形成于工程师权力较小的时代——当时他们只负责产品构建这一狭窄领域，而非全局。当你是"斯科特"（《星际迷航》中的工程师角色）时可以脾气古怪，但如果你是"柯克"船长就不行。  
   
-Another reason founders don't focus enough on individual customers is that they worry it won't scale. But when founders of larval startups worry about this, I point out that in their current state they have nothing to lose. Maybe if they go out of their way to make existing users super happy, they'll one day have too many to do so much for. That would be a great problem to have. See if you can make it happen. And incidentally, when it does, you'll find that delighting customers scales better than you expected. Partly because you can usually find ways to make anything scale more than you would have predicted, and partly because delighting customers will by then have permeated your culture.  
+另一个原因是创始人担心这种做法无法规模化。但当早期创业者担心这点时，我会指出他们现阶段没什么可失去的。也许当他们竭尽全力让现有用户超级满意时，终有一天用户会多到无法继续这种服务——那将是个幸福的烦恼。看看你能否实现它。顺便说一句，当那一天到来时，你会发现取悦客户的规模化能力比你预期的强——部分是因为你总能找到超出预期的规模化方法，部分是因为那时取悦客户已成为你们的文化。  
   
-I have never once seen a startup lured down a blind alley by trying too hard to make their initial users happy.  
+我从未见过哪家创业公司因为过于努力取悦早期用户而误入歧途。  
   
-But perhaps the biggest thing preventing founders from realizing how attentive they could be to their users is that they've never experienced such attention themselves. Their standards for customer service have been set by the companies they've been customers of, which are mostly big ones. Tim Cook doesn't send you a hand-written note after you buy a laptop. He can't. But you can. That's one advantage of being small: you can provide a level of service no big company can. [6]  
+但或许阻碍创始人认识到他们可以对用户有多关注的最大因素是，他们自己从未体验过这种关注。他们的客户服务标准来自那些他们作为客户接触过的大公司。蒂姆·库克不会在你购买笔记本后给你手写便条——他做不到。但你可以。这就是小公司的优势：你能提供大公司无法企及的服务水平。[6]  
   
-Once you realize that existing conventions are not the upper bound on user experience, it's interesting in a very pleasant way to think about how far you could go to delight your users.  
+一旦你意识到现有惯例并非用户体验的上限，思考你能走多远来取悦用户就会变成一件非常愉快的事。  
   
- **Experience**  
+ **极致标准**  
   
-I was trying to think of a phrase to convey how extreme your attention to users should be, and I realized Steve Jobs had already done it: insanely great. Steve wasn't just using "insanely" as a synonym for "very." He meant it more literally — that one should focus on quality of execution to a degree that in everyday life would be considered pathological.  
+我试图想出一个短语来描述对用户应有的极致关注，然后意识到史蒂夫·乔布斯已经创造了这个词——"insanely great"（疯狂般伟大）。乔布斯使用"疯狂"一词不仅是"非常"的同义词，而是更字面的意思——对执行质量的专注应达到在日常生活中会被视为偏执的程度。  
   
-All the most successful startups we've funded have, and that probably doesn't surprise would-be founders. What novice founders don't get is what insanely great translates to in a larval startup. When Steve Jobs started using that phrase, Apple was already an established company. He meant the Mac (and its documentation and even packaging — such is the nature of obsession) should be insanely well designed and manufactured. That's not hard for engineers to grasp. It's just a more extreme version of designing a robust and elegant product.  
+我们资助的所有最成功的创业公司都做到了这点，这或许不会让潜在创始人感到意外。新手创始人不懂的是，在创业初期，"疯狂般伟大"意味着什么。当乔布斯开始使用这个短语时，苹果已是成熟公司。他指的是Mac（及其文档甚至包装——这就是痴迷的本质）应该拥有极致的设计与制造质量。这对工程师来说不难理解，它只是"设计健壮优雅产品"的更极端版本。  
   
-What founders have a hard time grasping (and Steve himself might have had a hard time grasping) is what insanely great morphs into as you roll the time slider back to the first couple months of a startup's life. It's not the product that should be insanely great, but the experience of being your user. The product is just one component of that. For a big company it's necessarily the dominant one. But you can and should give users an insanely great experience with an early, incomplete, buggy product, if you make up the difference with attentiveness.  
+创始人难以理解的是（或许乔布斯本人也曾难以理解），当把时间轴拨回创业最初几个月时，"疯狂般伟大"会转变成什么。那时需要极致的不应是产品，而是用户的使用体验。产品只是其中的一部分。对大公司来说，产品必然是主导因素。但你可以也应该通过极度关注，即使用早期不完善、有缺陷的产品，也能为用户提供极致体验。  
   
-Can, perhaps, but should? Yes. Over-engaging with early users is not just a permissible technique for getting growth rolling. For most successful startups it's a necessary part of the feedback loop that makes the product good. Making a better mousetrap is not an atomic operation. Even if you start the way most successful startups have, by building something you yourself need, the first thing you build is never quite right. And except in domains with big penalties for making mistakes, it's often better not to aim for perfection initially. In software, especially, it usually works best to get something in front of users as soon as it has a quantum of utility, and then see what they do with it. Perfectionism is often an excuse for procrastination, and in any case your initial model of users is always inaccurate, even if you're one of them. [7]  
-  
-The feedback you get from engaging directly with your earliest users will be the best you ever get. When you're so big you have to resort to focus groups, you'll wish you could go over to your users' homes and offices and watch them use your stuff like you did when there were only a handful of them.  
-  
- **Fire**  
-  
-Sometimes the right unscalable trick is to focus on a deliberately narrow market. It's like keeping a fire contained at first to get it really hot before adding more logs.  
-  
-That's what Facebook did. At first it was just for Harvard students. In that form it only had a potential market of a few thousand people, but because they felt it was really for them, a critical mass of them signed up. After Facebook stopped being for Harvard students, it remained for students at specific colleges for quite a while. When I interviewed Mark Zuckerberg at Startup School, he said that while it was a lot of work creating course lists for each school, doing that made students feel the site was their natural home.  
-  
-Any startup that could be described as a marketplace usually has to start in a subset of the market, but this can work for other startups as well. It's always worth asking if there's a subset of the market in which you can get a critical mass of users quickly. [8]  
-  
-Most startups that use the contained fire strategy do it unconsciously. They build something for themselves and their friends, who happen to be the early adopters, and only realize later that they could offer it to a broader market. The strategy works just as well if you do it unconsciously. The biggest danger of not being consciously aware of this pattern is for those who naively discard part of it. E.g. if you don't build something for yourself and your friends, or even if you do, but you come from the corporate world and your friends are not early adopters, you'll no longer have a perfect initial market handed to you on a platter.  
-  
-Among companies, the best early adopters are usually other startups. They're more open to new things both by nature and because, having just been started, they haven't made all their choices yet. Plus when they succeed they grow fast, and you with them. It was one of many unforeseen advantages of the YC model (and specifically of making YC big) that B2B startups now have an instant market of hundreds of other startups ready at hand.  
-  
- **Meraki**  
-  
-For [hardware startups](hw.html) there's a variant of doing things that don't scale that we call "pulling a Meraki." Although we didn't fund Meraki, the founders were Robert Morris's grad students, so we know their history. They got started by doing something that really doesn't scale: assembling their routers themselves.  
-  
-Hardware startups face an obstacle that software startups don't. The minimum order for a factory production run is usually several hundred thousand dollars. Which can put you in a catch-22: without a product you can't generate the growth you need to raise the money to manufacture your product. Back when hardware startups had to rely on investors for money, you had to be pretty convincing to overcome this. The arrival of crowdfunding (or more precisely, preorders) has helped a lot. But even so I'd advise startups to pull a Meraki initially if they can. That's what Pebble did. The Pebbles [assembled](https://sep.turbifycdn.com/ty/cdn/paulgraham/eric.jpg?t=1730199416&) the first several hundred watches themselves. If they hadn't gone through that phase, they probably wouldn't have sold $10 million worth of watches when they did go on Kickstarter.  
-  
-Like paying excessive attention to early customers, fabricating things yourself turns out to be valuable for hardware startups. You can tweak the design faster when you're the factory, and you learn things you'd never have known otherwise. Eric Migicovsky of Pebble said one of the things he learned was "how valuable it was to source good screws." Who knew?  
-  
- **Consult**  
-  
-Sometimes we advise founders of B2B startups to take over-engagement to an extreme, and to pick a single user and act as if they were consultants building something just for that one user. The initial user serves as the form for your mold; keep tweaking till you fit their needs perfectly, and you'll usually find you've made something other users want too. Even if there aren't many of them, there are probably adjacent territories that have more. As long as you can find just one user who really needs something and can act on that need, you've got a toehold in making something people want, and that's as much as any startup needs initially. [9]  
-  
-Consulting is the canonical example of work that doesn't scale. But (like other ways of bestowing one's favors liberally) it's safe to do it so long as you're not being paid to. That's where companies cross the line. So long as you're a product company that's merely being extra attentive to a customer, they're very grateful even if you don't solve all their problems. But when they start paying you specifically for that attentiveness — when they start paying you by the hour — they expect you to do everything.  
-  
-Another consulting-like technique for recruiting initially lukewarm users is to use your software yourselves on their behalf. We did that at Viaweb. When we approached merchants asking if they wanted to use our software to make online stores, some said no, but they'd let us make one for them. Since we would do anything to get users, we did. We felt pretty lame at the time. Instead of organizing big strategic e-commerce partnerships, we were trying to sell luggage and pens and men's shirts. But in retrospect it was exactly the right thing to do, because it taught us how it would feel to merchants to use our software. Sometimes the feedback loop was near instantaneous: in the middle of building some merchant's site I'd find I needed a feature we didn't have, so I'd spend a couple hours implementing it and then resume building the site.  
-  
- **Manual**  
-  
-There's a more extreme variant where you don't just use your software, but are your software. When you only have a small number of users, you can sometimes get away with doing by hand things that you plan to automate later. This lets you launch faster, and when you do finally automate yourself out of the loop, you'll know exactly what to build because you'll have muscle memory from doing it yourself.  
-  
-When manual components look to the user like software, this technique starts to have aspects of a practical joke. For example, the way Stripe delivered "instant" merchant accounts to its first users was that the founders manually signed them up for traditional merchant accounts behind the scenes.  
-  
-Some startups could be entirely manual at first. If you can find someone with a problem that needs solving and you can solve it manually, go ahead and do that for as long as you can, and then gradually automate the bottlenecks. It would be a little frightening to be solving users' problems in a way that wasn't yet automatic, but less frightening than the far more common case of having something automatic that doesn't yet solve anyone's problems.  
-  
- **Big**  
-  
-I should mention one sort of initial tactic that usually doesn't work: the Big Launch. I occasionally meet founders who seem to believe startups are projectiles rather than powered aircraft, and that they'll make it big if and only if they're launched with sufficient initial velocity. They want to launch simultaneously in 8 different publications, with embargoes. And on a tuesday, of course, since they read somewhere that's the optimum day to launch something.  
-  
-It's easy to see how little launches matter. Think of some successful startups. How many of their launches do you remember? All you need from a launch is some initial core of users. How well you're doing a few months later will depend more on how happy you made those users than how many there were of them. [10]  
-  
-So why do founders think launches matter? A combination of solipsism and laziness. They think what they're building is so great that everyone who hears about it will immediately sign up. Plus it would be so much less work if you could get users merely by broadcasting your existence, rather than recruiting them one at a time. But even if what you're building really is great, getting users will always be a gradual process — partly because great things are usually also novel, but mainly because users have other things to think about.  
-  
-Partnerships too usually don't work. They don't work for startups in general, but they especially don't work as a way to get growth started. It's a common mistake among inexperienced founders to believe that a partnership with a big company will be their big break. Six months later they're all saying the same thing: that was way more work than we expected, and we ended up getting practically nothing out of it. [11]  
-  
-It's not enough just to do something extraordinary initially. You have to make an extraordinary _effort_ initially. Any strategy that omits the effort — whether it's expecting a big launch to get you users, or a big partner — is ipso facto suspect.  
-  
- **Vector**  
-  
-The need to do something unscalably laborious to get started is so nearly universal that it might be a good idea to stop thinking of startup ideas as scalars. Instead we should try thinking of them as pairs of what you're going to build, plus the unscalable thing(s) you're going to do initially to get the company going.  
-  
-It could be interesting to start viewing startup ideas this way, because now that there are two components you can try to be imaginative about the second as well as the first. But in most cases the second component will be what it usually is — recruit users manually and give them an overwhelmingly good experience — and the main benefit of treating startups as vectors will be to remind founders they need to work hard in two dimensions. [12]  
-  
-In the best case, both components of the vector contribute to your company's DNA: the unscalable things you have to do to get started are not merely a necessary evil, but change the company permanently for the better. If you have to be aggressive about user acquisition when you're small, you'll probably still be aggressive when you're big. If you have to manufacture your own hardware, or use your software on users's behalf, you'll learn things you couldn't have learned otherwise. And most importantly, if you have to work hard to delight users when you only have a handful of them, you'll keep doing it when you have a lot.  
-  
-  
-  
-  
-  
-  
-  
- **Notes**  
-  
-[1] Actually Emerson never mentioned mousetraps specifically. He wrote "If a man has good corn or wood, or boards, or pigs, to sell, or can make better chairs or knives, crucibles or church organs, than anybody else, you will find a broad hard-beaten road to his house, though it be in the woods."  
-  
-[2] Thanks to Sam Altman for suggesting I make this explicit. And no, you can't avoid doing sales by hiring someone to do it for you. You have to do sales yourself initially. Later you can hire a real salesperson to replace you.  
-  
-[3] The reason this works is that as you get bigger, your size helps you grow. Patrick Collison wrote "At some point, there was a very noticeable change in how Stripe felt. It tipped from being this boulder we had to push to being a train car that in fact had its own momentum."  
-  
-[4] One of the more subtle ways in which YC can help founders is by calibrating their ambitions, because we know exactly how a lot of successful startups looked when they were just getting started.  
-  
-[5] If you're building something for which you can't easily get a small set of users to observe — e.g. enterprise software — and in a domain where you have no connections, you'll have to rely on cold calls and introductions. But should you even be working on such an idea?  
-  
-[6] Garry Tan pointed out an interesting trap founders fall into in the beginning. They want so much to seem big that they imitate even the flaws of big companies, like indifference to individual users. This seems to them more "professional." Actually it's better to embrace the fact that you're small and use whatever advantages that brings.  
-  
-[7] Your user model almost couldn't be perfectly accurate, because users' needs often change in response to what you build for them. Build them a microcomputer, and suddenly they need to run spreadsheets on it, because the arrival of your new microcomputer causes someone to invent the spreadsheet.  
-  
-[8] If you have to choose between the subset that will sign up quickest and those that will pay the most, it's usually best to pick the former, because those are probably the early adopters. They'll have a better influence on your product, and they won't make you expend as much effort on sales. And though they have less money, you don't need that much to maintain your target growth rate early on.  
-  
-[9] Yes, I can imagine cases where you could end up making something that was really only useful for one user. But those are usually obvious, even to inexperienced founders. So if it's not obvious you'd be making something for a market of one, don't worry about that danger.  
-  
-[10] There may even be an inverse correlation between launch magnitude and success. The only launches I remember are famous flops like the Segway and Google Wave. Wave is a particularly alarming example, because I think it was actually a great idea that was killed partly by its overdone launch.  
-  
-[11] Google grew big on the back of Yahoo, but that wasn't a partnership. Yahoo was their customer.  
-  
-[12] It will also remind founders that an idea where the second component is empty — an idea where there is nothing you can do to get going, e.g. because you have no way to find users to recruit manually — is probably a bad idea, at least for those founders.  
-  
- **Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, Kevin Hale, Steven Levy, Jessica Livingston, Geoff Ralston, and Garry Tan for reading drafts of this.  
-  
-  
-  
-  
-  
----  
-[Japanese Translation](http://postd.cc/do-things-that-dont-scale/)  
-| | [Russian Translation](http://blog.perevedem.ru/2013/07/25/do-things-that-dont-scale/)  
-  
-[French Translation](https://www.adsteroid.com/101)  
-| | [Arabic Translation](http://academy.hsoub.com/entrepreneurship/general/%D8%A7%D9%81%D8%B9%D9%84-%D8%A7%D9%84%D8%A3%D8%B4%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%AA%D9%8A-%D9%84%D8%A7-%D9%8A%D9%8F%D9%85%D9%83%D9%86-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D9%85-%D8%A8%D9%87%D8%A7-%D8%B9%D9%84%D9%89-%D9%86%D8%B7%D8%A7%D9%82-%D9%88%D8%A7%D8%B3%D8%B9-do-things-that-dont-scale-r60/)  
-  
-[Italian Translation](https://marcotrombetti.com/nonscalabili)  
-| | [Korean Translation](https://medium.com/delightroom/do-things-that-dont-scale-6876c5682a75)  
+能做到，但应该做吗？是的。过度投入早期用户不仅是推动增长的可取手段，对多数成功创业公司而言，它更是打磨产品的必要反馈循环。"打造更好的捕鼠器"不是一蹴而就的事。即使你像多数成功创业公司那样，从解决自身需求开始，最初打造的产品也永远不会完美。除非在容错率极低的领域，否则初期追求完美往往适得其反。特别是在软件行业，最有效的方式通常是：一旦产品具备基本功能就立即让用户使用，然后观察他们的使用方式。完美主义常常是拖延的借口，而且即  
   
   
   

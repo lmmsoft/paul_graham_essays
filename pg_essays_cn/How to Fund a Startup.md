@@ -127,7 +127,7 @@ source_file: "How to Fund a Startup.md"
 
 例如，二三线风投更可能假意锁定交易来拖延决策。某资深CFO曾说："
 
-[翻译失败 - 原文]> The better ones usually will not give a term sheet unless they really want to do a deal. The second or third tier firms have a much higher break rate—it could be as high as 50%. 
+较好的投资方通常不会给出投资条款清单，除非他们确实有意达成交易。而二线或三线投资机构的交易破裂率要高得多——可能高达50%。 
 
 It's obvious why: the lower-tier firms' biggest fear, when chance throws them a bone, is that one of the big dogs will notice and take it away. The big dogs don't have to worry about that.  
   
@@ -135,23 +135,23 @@ Falling victim to this trick could really hurt you. As one VC told me:
 
 > If you were talking to four VCs, told three of them that you accepted a term sheet, and then have to call them back to tell them you were just kidding, you are absolutely damaged goods. 
 
-[翻译失败 - 原文]Here's a partial solution: when a VC offers you a term sheet, ask how many of their last 10 term sheets turned into deals. This will at least force them to lie outright if they want to mislead you.  
-  
-Not all the people who work at VC firms are partners. Most firms also have a handful of junior employees called something like associates or analysts. If you get a call from a VC firm, go to their web site and check whether the person you talked to is a partner. Odds are it will be a junior person; they scour the web looking for startups their bosses could invest in. The junior people will tend to seem very positive about your company. They're not pretending; they _want_ to believe you're a hot prospect, because it would be a huge coup for them if their firm invested in a company they discovered. Don't be misled by this optimism. It's the partners who decide, and they view things with a colder eye.  
-  
-Because VCs invest large amounts, the money comes with more restrictions. Most only come into effect if the company gets into trouble. For example, VCs generally write it into the deal that in any sale, they get their investment back first. So if the company gets sold at a low price, the founders could get nothing. Some VCs now require that in any sale they get 4x their investment back before the common stock holders (that is, you) get anything, but this is an abuse that should be resisted.  
-  
-Another difference with large investments is that the founders are usually required to accept "vesting"—to surrender their stock and earn it back over the next 4-5 years. VCs don't want to invest millions in a company the founders could just walk away from. Financially, vesting has little effect, but in some situations it could mean founders will have less power. If VCs got de facto control of the company and fired one of the founders, he'd lose any unvested stock unless there was specific protection against this. So vesting would in that situation force founders to toe the line.  
-  
-The most noticeable change when a startup takes serious funding is that the founders will no longer have complete control. Ten years ago VCs used to insist that founders step down as CEO and hand the job over to a business guy they supplied. This is less the rule now, partly because the disasters of the Bubble showed that generic business guys don't make such great CEOs.  
-  
-But while founders will increasingly be able to stay on as CEO, they'll have to cede some power, because the board of directors will become more powerful. In the seed stage, the board is generally a formality; if you want to talk to the other board members, you just yell into the next room. This stops with VC-scale money. In a typical VC funding deal, the board of directors might be composed of two VCs, two founders, and one outside person acceptable to both. The board will have ultimate power, which means the founders now have to convince instead of commanding.  
-  
-This is not as bad as it sounds, however. Bill Gates is in the same position; he doesn't have majority control of Microsoft; in principle he also has to convince instead of commanding. And yet he seems pretty commanding, doesn't he? As long as things are going smoothly, boards don't interfere much. The danger comes when there's a bump in the road, as happened to Steve Jobs at Apple.  
-  
-Like angels, VCs prefer to invest in deals that come to them through people they know. So while nearly all VC funds have some address you can send your business plan to, VCs privately admit the chance of getting funding by this route is near zero. One recently told me that he did not know a single startup that got funded this way.  
-  
-I suspect VCs accept business plans "over the transom" more as a way to keep tabs on industry trends than as a source of deals. In fact, I would strongly advise against mailing your business plan randomly to VCs, because they treat this as evidence of laziness. Do the extra work of getting personal introductions. As one VC put it: 
+这里有一个部分解决方案：当风险投资公司向你提供投资条款清单时，询问他们最近10份条款清单中有多少最终达成了交易。这样至少能迫使他们如果想误导你就必须直接撒谎。
+
+并非在风投机构工作的所有人都是合伙人。大多数公司还有少数初级员工，头衔类似助理或分析师。如果你接到风投公司的电话，请访问他们的网站，确认与你交谈的人是否是合伙人。很可能对方只是初级员工；这些人会在网上搜寻值得老板投资的项目。初级员工通常会表现得对你的公司非常乐观。他们并非假装；他们真心希望相信你是个优质项目，因为如果他们发现的这家公司获得投资，对他们而言将是巨大成功。不要被这种乐观误导。做决定的是合伙人，他们看问题的眼光更冷静。
+
+由于风投涉及大额资金，附带条款往往更严格。多数条款只会在公司陷入困境时生效。例如风投通常会在协议中写明：在任何出售交易中，他们享有优先收回投资的权利。因此如果公司以低价出售，创始人可能分文不得。有些风投现在要求在任何出售中，他们必须先获得4倍投资回报，普通股持有者（也就是创始人）才能获得收益——这种霸王条款应该坚决抵制。
+
+大额投资的另一个不同点是，创始人通常需要接受"股权兑现计划"——先交出股份，在随后4-5年间逐步赚回。风投不希望把数百万美元投给可能随时走人的创始人。从财务角度看这影响不大，但在某些情况下可能削弱创始人的话语权。如果风投实际控制了公司并解雇某位创始人，除非有特殊保护条款，否则他将失去所有未兑现的股份。这种情况下，股权兑现机制会成为约束创始人的缰绳。
+
+初创企业获得大额融资后，最显著的变化是创始人将失去绝对控制权。十年前风投常要求创始人辞去CEO职务，改由他们指派的职业经理人接任。如今这种做法有所改变，部分因为互联网泡沫的教训证明，空降的职业经理人未必是优秀的CEO。
+
+尽管创始人越来越能保住CEO职位，他们仍要让渡部分权力，因为董事会将拥有更大话语权。在种子轮阶段，董事会通常只是个形式；想和其他董事沟通时，对着隔壁房间喊一声就行。获得风投资金后情况完全不同。典型的风投交易中，董事会可能由两名风投代表、两名创始人和一名双方认可的外部人士组成。董事会拥有最高决策权，这意味着创始人现在需要说服他人而非直接发号施令。
+
+不过这没听上去那么糟。比尔·盖茨也处于相同境地；他并不拥有微软的绝对控股权，原则上也需要说服而非命令。但他看起来仍然很有掌控力，不是吗？只要公司运转良好，董事会很少干涉。真正的风险出现在遭遇波折时，就像史蒂夫·乔布斯在苹果的经历。
+
+和天使投资人一样，风投更青睐通过熟人推荐的项目。虽然几乎所有风投基金都设有商业计划书投递渠道，但风投私下承认通过这种途径获得融资的几率近乎为零。有位风投最近告诉我，他从未见过任何初创企业以此方式成功融资。
+
+我怀疑风投接受"盲投"商业计划书，更多是为了追踪行业趋势而非寻找项目。事实上，我强烈建议不要随机投递计划书给风投机构，他们会将此视为懒惰的表现。多花些功夫争取私人引荐。正如一位风投所说： 
 
 我并不难找。我认识很多人。如果你连联系我的办法都想不出来，又怎么能创建一家成功的公司？
 

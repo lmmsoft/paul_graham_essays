@@ -123,94 +123,81 @@ Y Combinator正在努力改变这种状况。我们正试图增加投资者的�
   
 投资者知道这一点，至少是无意识地。他们喜欢你不
 
-[翻译失败 - 原文]> The numbers for me ended up being something like 500 to 800 plans received and read, somewhere between 50 and 100 initial 1 hour meetings held, about 20 companies that I got interested in, about 5 that I got serious about and did a bunch of work, 1 to 2 deals done in a year. So the odds are against you. You may be a great entrepreneur, working on interesting stuff, etc. but it is still incredibly unlikely that you get funded. 
+我最终的数据大概是收到并阅读了500到800份商业计划书，进行了大约50到100次初始的1小时会议，对其中约20家公司产生了兴趣，认真考虑并投入大量工作的有5家左右，一年内达成1到2笔交易。所以形势对你并不利。你可能是一位出色的创业者，正在做有趣的项目等等，但即便如此，获得投资的可能性依然微乎其微。 
 
-[翻译失败 - 原文]This is less true with angels, but VCs reject practically everyone. The structure of their business means a partner does at most 2 new investments a year, no matter how many good startups approach him.  
-  
-In addition to the odds being terrible, the average investor is, as I mentioned, a pretty bad judge of startups. It's harder to judge startups than most other things, because great startup ideas tend to seem wrong. A good startup idea has to be not just good but novel. And to be both good and novel, an idea probably has to seem bad to most people, or someone would already be doing it and it wouldn't be novel.  
-  
-That makes judging startups harder than most other things one judges. You have to be an intellectual contrarian to be a good startup investor. That's a problem for VCs, most of whom are not particularly imaginative. VCs are mostly money guys, not people who make things. [7] Angels are better at appreciating novel ideas, because most were founders themselves.  
-  
-So when you get a rejection, use the data that's in it, and not what's not. If an investor gives you specific reasons for not investing, look at your startup and ask if they're right. If they're real problems, fix them. But don't just take their word for it. You're supposed to be the domain expert; you have to decide.  
-  
-Though a rejection doesn't necessarily tell you anything about your startup, it does suggest your pitch could be improved. Figure out what's not working and change it. Don't just think "investors are stupid." Often they are, but figure out precisely where you lose them.  
-  
-Don't let rejections pile up as a depressing, undifferentiated heap. Sort them and analyze them, and then instead of thinking "no one likes us," you'll know precisely how big a problem you have, and what to do about it.  
-  
-**7\. Be able to downshift into consulting (if appropriate).**  
-  
-Consulting, as I mentioned, is a dangerous way to finance a startup. But it's better than dying. It's a bit like anaerobic respiration: not the optimum solution for the long term, but it can save you from an immediate threat. If you're having trouble raising money from investors at all, it could save you to be able to shift toward consulting.  
-  
-This works better for some startups than others. It wouldn't have been a natural fit for, say, Google, but if your company was making software for building web sites, you could degrade fairly gracefully into consulting by building sites for clients with it.  
-  
-So long as you were careful not to get sucked permanently into consulting, this could even have advantages. You'd understand your users well if you were using the software for them. Plus as a consulting company you might be able to get big-name users using your software that you wouldn't have gotten as a product company.  
-  
-At Viaweb we were forced to operate like a consulting company initially, because we were so desperate for users that we'd offer to build merchants' sites for them if they'd sign up. But we never charged for such work, because we didn't want them to start treating us like actual consultants, and calling us every time they wanted something changed on their site. We knew we had to stay a product company, because only that scales.  
-  
-**8\. Avoid inexperienced investors.**  
-  
-Though novice investors seem unthreatening they can be the most dangerous sort, because they're so nervous. Especially in proportion to the amount they invest. Raising $20,000 from a first-time angel investor can be as much work as raising $2 million from a VC fund.  
-  
-Their lawyers are generally inexperienced too. But while the investors can admit they don't know what they're doing, their lawyers can't. One YC startup negotiated terms for a tiny round with an angel, only to receive a 70-page agreement from his lawyer. And since the lawyer could never admit, in front of his client, that he'd screwed up, he instead had to insist on retaining all the draconian terms in it, so the deal fell through.  
-  
-Of course, someone has to take money from novice investors, or there would never be any experienced ones. But if you do, either (a) drive the process yourself, including supplying the [paperwork](http://ycombinator.com/seriesaa.html), or (b) use them only to fill up a larger round led by someone else.  
-  
-**9\. Know where you stand.**  
-  
-The most dangerous thing about investors is their indecisiveness. The worst case scenario is the long no, the no that comes after months of meetings. Rejections from investors are like design flaws: inevitable, but much less costly if you discover them early.  
-  
-So while you're talking to investors, constantly look for signs of where you stand. How likely are they to offer you a term sheet? What do they have to be convinced of first? You shouldn't necessarily always be asking these questions outright—that could get annoying—but you should always be collecting data about them.  
-  
-Investors tend to resist committing except to the extent you push them to. It's in their interest to collect the maximum amount of information while making the minimum number of decisions. The best way to force them to act is, of course, competing investors. But you can also apply some force by focusing the discussion: by asking what specific questions they need answered to make up their minds, and then answering them. If you get through several obstacles and they keep raising new ones, assume that ultimately they're going to flake.  
-  
-You have to be disciplined when collecting data about investors' intentions. Otherwise their desire to lead you on will combine with your own desire to be led on to produce completely inaccurate impressions.  
-  
-Use the data to weight your strategy. You'll probably be talking to several investors. Focus on the ones that are most likely to say yes. The value of a potential investor is a combination of how good it would be if they said yes, and how likely they are to say it. Put the most weight on the second factor. Partly because the most important quality in an investor is simply investing. But also because, as I mentioned, the biggest factor in investors' opinion of you is other investors' opinion of you. If you're talking to several investors and you manage to get one over the threshold of saying yes, it will make the others much more interested. So you're not sacrificing the lukewarm investors if you focus on the hot ones; convincing the hot investors is the best way to convince the lukewarm ones.  
-  
-**Future**  
-  
-I'm hopeful things won't always be so awkward. I hope that as startups get cheaper and the number of investors increases, raising money will become, if not easy, at least straightforward.  
-  
-In the meantime, the brokenness of the funding process offers a big opportunity. Most investors have no idea how dangerous they are. They'd be surprised to hear that raising money from them is something that has to be treated as a threat to a company's survival. They just think they need a little more information to make up their minds. They don't get that there are 10 other investors who also want a little more information, and that the process of talking to them all can bring a startup to a standstill for months.  
-  
-Because investors don't understand the cost of dealing with them, they don't realize how much room there is for a potential competitor to undercut them. I know from my own experience how much faster investors could decide, because we've brought our own time down to 20 minutes (5 minutes of reading an application plus a 10 minute interview plus 5 minutes of discussion). If you were investing more money you'd want to take longer, of course. But if we can decide in 20 minutes, should it take anyone longer than a couple days?  
-  
-Opportunities like this don't sit unexploited forever, even in an industry as conservative as venture capital. So either existing investors will start to make up their minds faster, or new investors will emerge who do.  
-  
-In the meantime founders have to treat raising money as a dangerous process. Fortunately, I can fix the biggest danger right here. The biggest danger is surprise. It's that startups will underestimate the difficulty of raising money—that they'll cruise through all the initial steps, but when they turn to raising money they'll find it surprisingly hard, get demoralized, and give up. So I'm telling you in advance: raising money is hard.  
-  
-  
-  
-  
-  
- **Notes**  
-  
-[1] When investors can't make up their minds, they sometimes describe it as if it were a property of the startup. "You're too early for us," they sometimes say. But which of them, if they were taken back in a time machine to the hour Google was founded, wouldn't offer to invest at any valuation the founders chose? An hour old is not too early if it's the right startup. What "you're too early" really means is "we can't figure out yet whether you'll succeed."  
-  
-[2] Investors influence one another both directly and indirectly. They influence one another directly through the "buzz" that surrounds a hot startup. But they also influence one another indirectly _through the founders._ When a lot of investors are interested in you, it increases your confidence in a way that makes you much more attractive to investors.  
-  
-No VC will admit they're influenced by buzz. Some genuinely aren't. But there are few who can say they're not influenced by confidence.  
-  
-[3] One VC who read this essay wrote:  
-  
-"We try to avoid companies that got bootstrapped with consulting. It creates very bad behaviors/instincts that are hard to erase from a company's culture."  
-  
-[4] The optimal way to answer the first question is to say that it would be improper to name names, while simultaneously implying that you're talking to a bunch of other VCs who are all about to give you term sheets. If you're the sort of person who understands how to do that, go ahead. If not, don't even try. Nothing annoys VCs more than clumsy efforts to manipulate them.  
-  
-[5] The disadvantage of expanding a round on the fly is that the valuation is fixed at the start, so if you get a sudden rush of interest, you may have to decide between turning some investors away and selling more of the company than you meant to. That's a good problem to have, however.  
-  
-[6] I wouldn't say that intelligence doesn't matter in startups. We're only comparing YC startups, who've already made it over a certain threshold.  
-  
-[7] But not all are. Though most VCs are suits at heart, the most successful ones tend not to be. Oddly enough, the best VCs tend to be the least VC-like.  
-  
-**Thanks** to Trevor Blackwell, David Hornik, Jessica Livingston, Robert Morris, and Fred Wilson for reading drafts of this.  
-  
-  
-  
-  
-  
----  
-[Russian Translation](http://spring.jumpidea.com/2008/08/paul-graham-fundraising.html)  
+天使投资人在这方面稍好一些，但风险投资机构几乎会拒绝所有人。他们的业务结构决定了每位合伙人每年最多只能进行两笔新投资，无论有多少优秀初创企业找上门来。
+
+除了成功概率极低之外，正如我提到的，普通投资者对初创企业的判断力往往很差。评估初创企业比其他大多数事情都困难，因为绝佳的创业点子往往看起来像是错的。一个好的创业想法不仅要优秀，还必须新颖。而要做到既优秀又新颖，这个想法对大多数人来说很可能显得糟糕——否则早就有人在做，它也就不新颖了。
+
+这使得评判初创企业比其他大多数判断都更难。要成为优秀的初创企业投资者，你必须是个智力上的逆向思考者。这对风投机构是个问题，因为他们大多缺乏想象力。风投人士本质上是金融从业者，而非产品创造者[7]。天使投资人更擅长欣赏新颖想法，因为他们大多自己创过业。
+
+所以当你被拒绝时，要利用其中包含的信息，而非凭空臆测。如果投资者给出了具体的拒绝理由，审视你的公司并思考这些批评是否成立。如果确实是问题所在，就解决它们。但不要盲目采信——你才是领域专家，必须自己做出判断。
+
+虽然拒绝未必能说明你的初创企业存在问题，但它确实暗示你的推介方式有待改进。找出问题所在并调整策略，别简单归咎于"投资人太蠢"。虽然他们经常如此，但要准确定位你在哪个环节失去了他们的兴趣。
+
+别让拒绝堆积成令人沮丧的无差别废料堆。对它们进行分类分析，这样你就能从"没人看好我们"的挫败感，转变为准确认知问题严重性及解决方案。
+
+**7. 必要时能转向咨询业务**
+
+正如前文所述，通过咨询业务为初创企业输血存在风险。但总比倒闭强。这有点像无氧呼吸：虽非长期最优解，却能化解燃眉之急。如果融资完全受阻，转型咨询或许能挽救公司。
+
+这种模式更适合某些类型的初创企业。比如对谷歌就不适用，但如果你是做网站建设软件的，通过为客户建站来过渡就相对自然。
+
+只要注意不被咨询业务永久绑架，这种模式甚至能带来好处。通过亲自为客户使用自家软件，你能更深入理解用户需求。此外作为服务商，你或许能让某些知名客户使用你的软件——这些客户可能根本不会考虑采购你的产品。
+
+Viaweb早期就不得不以咨询公司模式运作，因为我们极度渴望用户，甚至承诺为签约商户免费建站。但我们从不收费，避免被当成真正的服务商——否则客户会为每个网站改动来电求助。我们清楚必须保持产品公司的本质，因为只有这样才能实现规模扩张。
+
+**8. 警惕投资新手**
+
+新手投资者看似无害，实则可能最危险，因为他们过度紧张——尤其相对于其投资金额而言。从初次试水的天使投资人那里融资2万美元耗费的精力，可能堪比从风投基金融资200万。
+
+他们的律师通常也缺乏经验。但区别在于：投资人可以承认自己不懂行，律师却不行。某YC初创公司与天使投资人谈妥小额融资条款后，竟收到其律师起草的70页协议。由于律师不可能在客户面前承认失误，他坚持保留所有严苛条款，最终导致交易流产。
+
+当然，总得有人成为新手投资人的"练手对象"，否则市场上永远不会出现成熟投资者。但如果你决定接受这类投资，要么(a)全程主导流程（包括提供标准化法律文件），要么(b)仅将其作为某轮大型融资的补充资金。
+
+**9. 明确自身处境**
+
+投资者最危险的特质是优柔寡断。最糟糕的情况是"漫长的拒绝"——经过数月会议后才给出的否定答复。投资人的拒绝就像设计缺陷：无法完全避免，但越早发现代价越小。
+
+因此在与投资人周旋时，要持续评估自身处境：他们出具投资条款书的可能性有多大？还需要说服他们相信什么？不必总是直白提问（可能惹人厌），但要持续收集相关信号。
+
+投资人天然抗拒做出承诺，除非你施加压力。对他们而言，最理想状态是在最小化决策的同时最大化信息收集。当然，制造竞争态势是最佳施压手段。但你也可以通过聚焦讨论来推进：明确他们做出决策需要解决的具体问题，然后逐个击破。如果你连续突破多个障碍后对方仍不断设置新关卡，基本可以判定他们最终会退缩。
+
+评估投资人意向时需要保持理性克制。否则他们"吊着你"的倾向与你"被吊着"的期待相结合，会产生严重失真的判断。
+
+根据数据调整策略。你很可能同时在接触多个投资人，应该优先攻克最可能点头的那个。潜在投资人的价值取决于两个因素：他们投资带来的好处，以及他们实际投资的可能性。要更重视后者——部分因为投资人最重要的品质就是愿意投资，更因为（如前所述）投资人对你评价的最大影响因素，是其他投资人对你的评价。如果你能推动某个投资人突破心理阈值表示同意，其他观望者兴趣会立刻提升。所以专注突破最热切的投资人并非冷落犹豫者——说服前者恰恰是打动后者的最佳方式。
+
+**未来展望**
+
+我期待这种扭曲状态不会永远持续。随着创业成本持续降低和投资者数量增加，融资过程即便不会变得轻松，至少能更加直截了当。
+
+现阶段，融资机制的缺陷中蕴藏着巨大机会。多数投资者根本意识不到自己造成的风险。若听说从他们那里融资竟被视作威胁企业生存的隐患，他们定会愕然——他们自认为只是需要更多信息来做决定。殊不知还有十个投资人也抱着同样想法，而与所有这些人的周旋足以让初创企业停滞数月。
+
+由于投资者未能理解创业者对接成本，他们没意识到潜在竞争者有多大空间可以颠覆现有模式。根据YC的实操经验，我们已将决策时间压缩至20分钟（5分钟阅读申请材料+10分钟面谈+5分钟讨论）。当然，大额投资需要更长时间尽调。但既然我们能在20分钟内做决定，其他人真的需要超过几天吗？
+
+即使在风投这样保守的行业，这类机会也不会永远被忽视。要么现有投资者会加速决策，要么更高效的新投资者将涌现。
+
+在此之前，创始人必须将融资视为高危动作。所幸我可以在此消除最大的风险——认知落差。最危险的情况是初创企业低估融资难度：前期顺风顺水，真正开始融资时却遭遇意外挫折，最终士气崩溃选择放弃。所以我现在明确告知你：融资本就艰难。
+
+**注释**
+
+[1] 当投资者犹豫不决时，他们常把问题包装成初创企业的属性。比如"你们对我们来说太早期了"。但如果用时光机把这些人带回谷歌创立当天，谁会拒绝以创始人开的任何估值投资呢？如果是合适的项目，成立一小时也不算早。"你们太早期"的真实含义是"我们还无法判断你们能否成功"。
+
+[2] 投资者会通过直接和间接方式相互影响。直接影响表现为热门项目引发的"跟风效应"。但更微妙的是通过创始人产生的间接影响——当众多投资者对你感兴趣时，这种信心加持会让你对投资者更具吸引力。
+
+没有风投会承认受跟风效应影响，有些确实没有。但极少有人敢说不受创业者信心的影响。
+
+[3] 某位阅读本文的风投人士写道："我们尽量避免投资靠咨询业务起家的公司。这会形成难以消除的不良文化基因。"
+
+[4] 回答"还有哪些机构在接触"的最优解是：婉拒透露具体名称，同时暗示多家风投即将给你条款书。如果你深谙此道请自便，否则千万别勉强——没有什么比拙劣的话术更惹风投反感了。
+
+[5] 动态扩大融资轮的缺点是估值已在初期锁定。若突然出现超额认购，你将面临两难：拒绝部分投资者，或出让超出预期的股份。不过这属于甜蜜的烦恼。
+
+[6] 我并非认为智力在创业中不重要。这里比较的是已通过YC筛选门槛的初创企业。
+
+[7] 但并非所有风投都如此。虽然多数风投骨子里是金融人士，但最成功者往往例外。有趣的是，最优秀的投资人通常最不像典型风投。
+
+**致谢** 感谢Trevor Blackwell、David Hornik、Jessica Livingston、Robert Morris和Fred Wilson审阅本文草稿。  
   
   
   
