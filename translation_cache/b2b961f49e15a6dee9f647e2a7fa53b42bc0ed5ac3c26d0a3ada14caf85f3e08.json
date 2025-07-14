@@ -1,0 +1,6 @@
+{
+  "original": "> Comparisons between Ericsson-internal development projects indicate similar line/hour productivity, including all phases of software development, rather independently of which language (Erlang, PLEX...",
+  "translation": "爱立信内部开发项目的比较显示，无论使用何种语言（Erlang、PLEX、C、C++或Java），软件开发各阶段的代码行/小时生产力都大致相当。因此，不同语言之间的差异主要体现在源代码体积上。",
+  "timestamp": "2025-07-14T02:31:41.796614",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

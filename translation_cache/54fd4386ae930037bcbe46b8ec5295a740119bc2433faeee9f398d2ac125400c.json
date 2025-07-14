@@ -1,0 +1,6 @@
+{
+  "original": "| | [](index.html)  \n  \n|   \n  \nApril 2001  \n  \nThis essay developed out of conversations I've had with several other programmers about why Java smelled suspicious. It's not a critique of Java! It is ...",
+  "translation": "| | [](index.html)  \n\n|  \n\n2001年4月  \n\n这篇文章源自我与其他几位程序员关于为何Java令人心生疑虑的讨论。它并非对Java的批判！而是一份关于黑客直觉的案例分析。  \n\n随着时间推移，黑客们培养出了对技术优劣的敏锐嗅觉。我认为尝试记录下Java让我感到可疑的原因或许会很有趣。  \n\n一些读过此文的人认为，这是对前人未曾涉猎领域的有趣探索。另一些人则警告我，可能会因谈论自己不了解的事物而惹上麻烦。因此，为防万一，请允许我澄清：本文并非探讨Java（我从未使用过它），而是关于黑客的直觉雷达（对此我思考良多）。  \n\n  \n\n* * *",
+  "timestamp": "2025-07-14T13:59:33.234898",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

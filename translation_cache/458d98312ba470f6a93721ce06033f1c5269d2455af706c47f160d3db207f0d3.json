@@ -1,0 +1,6 @@
+{
+  "original": "> Another way to show that Lisp was neater than Turing machines was to write a universal Lisp function and show that it is briefer and more comprehensible than the description of a universal Turing ma...",
+  "translation": "另一种证明Lisp比图灵机更简洁的方法是编写一个通用Lisp函数，并展示它比通用图灵机的描述更简短易懂。这个Lisp函数就是[_eval_](https://sep.turbifycdn.com/ty/cdn/paulgraham/jmc.lisp?t=1688221954&)...，它能计算Lisp表达式的值......编写_eval_需要发明一种将Lisp函数表示为Lisp数据的符号，这种符号在论文中被设计出来时，完全没想过它会在实践中用于表达Lisp程序。\n\n接下来的事情发生在1958年末，麦卡锡的研究生史蒂夫·拉塞尔看到了这个_eval_的定义，意识到如果将其翻译成机器语言，结果将成为一个Lisp解释器。\n\n这在当时是个巨大的惊喜。后来麦卡锡在采访中这样描述：\n\n> 史蒂夫·拉塞尔说，看，我为什么不把这个_eval_程序化呢？我对他说，呵呵，你把理论和实践搞混了，这个_eval_是用来阅读的，不是用来计算的。但他还是去做了。也就是说，他将我论文中的_eval_编译成[IBM]704机器码，修复了一些错误，然后将其作为Lisp解释器发布——它确实就是。所以从那时起，Lisp基本上就有了今天的形式......",
+  "timestamp": "2025-07-14T02:31:07.899159",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

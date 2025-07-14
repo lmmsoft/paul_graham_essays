@@ -1,0 +1,6 @@
+{
+  "original": "  6. Programs composed of expressions. Lisp programs are trees of expressions, each of which returns a value. This is in contrast to Fortran and most succeeding languages, which distinguish between ex...",
+  "translation": "6. 由表达式构成的程序。Lisp程序是由表达式构成的树形结构，每个表达式都会返回一个值。这与Fortran及大多数后续语言形成鲜明对比——后者严格区分表达式与语句。\n\n这种区分在Fortran I中很自然，因为当时语句不能嵌套。虽然数学运算需要表达式，但让其他结构返回值毫无意义，毕竟没有任何代码能接收这些值。\n\n随着块结构语言的出现，这种限制消失了，但为时已晚。表达式与语句的区分已根深蒂固，从Fortran蔓延到Algol，继而影响了它们的所有后代语言。\n\n7. 符号类型。符号本质上是指向哈希表中字符串的指针。因此可以通过比较指针来测试相等性，无需逐字符比对。\n\n8. 使用符号与常量树形结构表示代码的标记法。\n\n9. 全时态语言。读取时、编译时与运行时之间没有真正界限：你可以在读取时编译或运行代码，在编译时读取或运行代码，在运行时读取或编译代码。\n\n读取时运行代码让用户能重定义Lisp语法；编译时运行代码是宏系统的根基；运行时编译代码使Lisp成为Emacs等程序的扩展语言；运行时读取代码则让程序能通过s表达式通信——这个理念后来以XML的形式被重新发明。",
+  "timestamp": "2025-07-14T02:31:36.299244",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

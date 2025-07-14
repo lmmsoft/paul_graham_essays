@@ -1,0 +1,6 @@
+{
+  "original": "| | [](index.html)  \n  \n|   \n  \nFebruary 2009  \n  \nHacker News was two years old last week. Initially it was supposed to be a side project—an application to sharpen Arc on, and a place for current and...",
+  "translation": "| | [](index.html)  \n  \n|   \n  \n2009年2月  \n  \n上周是Hacker News成立两周年。最初它只是一个副业项目——一个用来打磨Arc语言的应用，也是当前及未来Y Combinator创始人交流新闻的场所。它的发展规模和我投入的时间都超出了预期，但我并不后悔，因为运营它让我获益良多。  \n  \n**成长历程**  \n  \n2007年2月上线时，工作日日均独立访客约为1600人。如今已[增长](http://ycombinator.com/images/2yeartraffic.png)至约22,000人。这个增速略高于我的预期。虽然我希望网站保持增长（因为停滞不前的网站无异于消亡），但我不愿它发展成Digg或Reddit那样的规模——主要担心会稀释网站特色，同时也因不愿将所有时间耗费在扩容问题上。  \n  \n现有问题已足够棘手。请记住，创建HN的初衷是为了测试一门新编程语言，而且这是一门专注于语言设计实验而非性能优化的语言。每当网站运行迟缓时，我就用McIlroy和Bentley的经典名言来激励自己：  \n  \n> 性能的关键在于优雅，而非堆砌特例。",
+  "timestamp": "2025-07-14T12:44:53.730580",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

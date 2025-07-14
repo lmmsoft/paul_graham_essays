@@ -1,0 +1,6 @@
+{
+  "original": "> Excite really never got the business model right at all. We fell into the classic problem of how when a new medium comes out it adopts the practices, the content, the business models of the old medi...",
+  "translation": "Excite公司其实从未真正找准商业模式。我们陷入了经典困境：每当新媒体出现时，总会先套用旧媒体的运营方式、内容模式和商业模式——这些终将失败，之后更合适的模式才会逐渐成型。\n\n泡沫破裂后的那些年，表面看似波澜不惊。但回望过去，变革正在发生：互联网正在寻找其自然平衡点。以民主化组件为例——这并非人为制造的创新，而是网络与生俱来的特质。\n\n通过网络交付类桌面应用的理念同样如此。这个构想几乎与互联网同龄。但它最初被Sun公司截取，于是我们得到了Java小程序。后来Java被改造成C++的通用替代品，但在1996年，Java被包装成软件新范式——取代桌面应用的将是从服务器分发的Java\"小程序\"。\n\n这个计划因自身臃肿而崩塌。微软推波助澜，但即便没有干预也注定失败。黑客群体根本不买账。当你发现[公关公司](submarine.html)鼓吹某事物是下一代开发平台时，基本可以判定它不是。若真是如此，根本不需要公关造势，因为黑客们早就会自发在其上开发应用，就像[Busmonster](http://busmonster.com)等网站在谷歌官方表态前，就已将谷歌地图当作开发平台那样。\n\nAjax成为热门平台的证据在于：成千上万黑客已自发以其为基础进行开发。市场用脚投票。\n\nWeb 2.0三大要素还有另一个共同点。试想以下创业计划向投资人提案时的场景：\n\n> del.icio.us和flickr等网站允许用户用描述性标签标记内容。但他们忽略了庞大的_隐性_标签库：网页链接中的文本。这些链接实际上构成了连接网页创建者的社交网络，借助图论我们能计算出网络中各节点的信誉度。我们计划挖掘这些隐性标签，利用其背后的信誉层级体系来优化搜索。",
+  "timestamp": "2025-07-14T12:36:44.566642",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

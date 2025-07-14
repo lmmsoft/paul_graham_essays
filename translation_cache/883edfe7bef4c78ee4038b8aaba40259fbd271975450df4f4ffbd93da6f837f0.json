@@ -1,0 +1,6 @@
+{
+  "original": "| | [](index.html)  \n  \n|   \n  \nAugust 2021  \n  \nWhen people say that in their experience all programming languages are basically equivalent, they're making a statement not about languages but about t...",
+  "translation": "| | [](index.html)  \n  \n|   \n  \n2021年8月  \n  \n当人们说根据他们的经验，所有编程语言基本都差不多时，他们其实不是在谈论语言本身，而是在描述他们所从事的编程类型。  \n  \n99.5%的编程工作不过是把各种库函数调用粘合在一起。所有流行语言在这方面都同样出色。因此，人们很容易在整个职业生涯中都只使用流行语言的共有功能。  \n  \n但剩下的0.5%编程工作却格外有趣。如果你想了解这部分内容，那些\"怪异\"语言的独特之处就是很好的线索。  \n  \n怪异语言的\"怪异\"并非偶然。至少优秀的怪异语言不是这样。优秀怪异语言的独特性往往意味着存在某种超越常规库函数粘合的编程范式。  \n  \n举个具体例子：Lisp宏。即使对许多Lisp程序员来说，宏也显得很怪异。它们不仅不在流行语言的共有功能中，而且从本质上说，要想在非Lisp语言中正确实现宏，几乎必然要把该语言变成Lisp的方言。宏的存在明确证明了存在超越\"粘合编程\"的技术。比如先为某类问题创建专用语言，再用该语言编写具体应用的解题方式。宏的潜力远不止于此——它只是程序操控技术领域中一个尚未被完全探索的维度。  \n  \n因此，如果你想拓展对编程可能性的认知，学习怪异语言是个好方法。选择一种多数程序员认为怪异、但其用户群体普遍聪明的语言，重点关注它与主流语言的差异之处。用这种语言能表达哪些在其他语言中难以实现的想法？在学习表达新概念的过程中，你很可能会习得全新的思维方式。  \n  \n  \n  \n  \n  \n  \n  \n**致谢**：感谢Trevor Blackwell、Patrick Collison、Daniel Gackle、Amjad Masad和Robert Morris审阅本文草稿。   \n  \n  \n---  \n  \n  \n---  \n[日语译本](https://practical-scheme.net/trans/weird-j.html)  \n  \n  \n  \n  \n\n* * *  \n  \n---",
+  "timestamp": "2025-07-14T13:18:56.671639",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

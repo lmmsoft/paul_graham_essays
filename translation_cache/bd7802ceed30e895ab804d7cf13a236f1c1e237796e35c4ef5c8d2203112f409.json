@@ -1,0 +1,6 @@
+{
+  "original": "> Any sufficiently complicated C or Fortran program contains an ad hoc informally-specified bug-ridden slow implementation of half of Common Lisp. \n\nIf you try to solve a hard problem, the question is...",
+  "translation": "任何足够复杂的C或Fortran程序，都包含了一个临时拼凑、非正式规范、漏洞百出且运行缓慢的Common Lisp半成品实现。\n\n当你试图解决一个难题时，问题不在于你是否会使用足够强大的语言，而在于你会选择：(a) 使用一门强大的语言，(b) 为其编写一个事实上的解释器，还是 (c) 自己成为这门语言的人肉编译器。我们在Python示例中已看到这种现象的萌芽——本质上我们正在模拟编译器为实现词法变量所生成的代码。\n\n这种做法不仅普遍，甚至已成为行业惯例。例如在面向对象领域，人们频繁讨论\"设计模式\"。我不禁怀疑这些模式是否正是案例(c)——人肉编译器——的体现。当我在程序中看到模式时，我认为这是问题出现的征兆。程序的形态应当只反映其需要解决的问题。代码中任何其他规律性痕迹，至少在我看来，都意味着我正在使用的抽象不够强大——往往是在手工编写本应由宏展开生成的代码。\n\n\n**注释**\n\n* IBM 704中央处理器体积与家用冰箱相仿，但重量远超。CPU重3150磅，4K内存装在另一个重达4000磅的箱子里。而Sub-Zero 690作为最大型家用冰箱之一，重量仅656磅。\n* 史蒂夫·拉塞尔还在1962年编写了首个(数字)电脑游戏《太空大战》。\n* 若想哄骗呆板上司允许你用Lisp编程，不妨告诉他这是XML。\n* 其他Lisp方言中的累加器生成器实现：Scheme版：(define (foo n) (lambda (i) (set! n (+ n i)) n))；Goo版：(df foo (n) (op incf n _)))；Arc版：(def foo (n) [++ n _])\n* 埃兰·盖特关于JPL\"行业最佳实践\"的悲伤故事促使我探讨这个被普遍误用的表述。\n* 彼得·诺维格发现《设计模式》中的23个模式有16个在Lisp中\"[不可见或更简单](http://www.norvig.com/design-patterns/)\"。\n* 感谢肯·安德森、特雷弗·布莱克韦尔、埃兰·盖特、丹·吉芬、莎拉·哈林、杰里米·希尔顿、罗伯特·莫里斯、彼得·诺维格、盖伊·斯蒂尔和安东·范斯特拉滕等人解答各类语言问题及审阅本文草稿。文中观点责任均与上述人士无关。",
+  "timestamp": "2025-07-14T12:02:06.058519",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

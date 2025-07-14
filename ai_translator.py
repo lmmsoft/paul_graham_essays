@@ -35,10 +35,11 @@ class DeepSeekTranslator:
         self.cache_dir.mkdir(exist_ok=True)
         
         # 并发控制 - 针对你的API限制优化 (RPM:1000, TPM:10000)
-        self.max_concurrent = min(max_concurrent, 8)  # 保守的并发数
-        self.request_interval = 0.1  # 请求间隔（秒）
+        self.max_concurrent = 3  # 改为单线程避免429错误
+        self.request_interval = 1.0  # 大幅增加请求间隔到1秒
         self.last_request_time = 0
         self.request_lock = Lock()
+        self.timeout = 300  # 增加超时时间到120秒
         
         # 统计
         self.stats = {
@@ -115,35 +116,82 @@ class DeepSeekTranslator:
             "max_tokens": 4000
         }
 
-        try:
-            with self.stats_lock:
-                self.stats['api_calls'] += 1
-            
-            response = requests.post(self.base_url, headers=self.headers, json=data, timeout=60)
-            response.raise_for_status()
-            result = response.json()
-
-            if 'choices' in result and len(result['choices']) > 0:
-                translation = result['choices'][0]['message']['content'].strip()
-                # 保存到缓存
-                self.save_translation_cache(text, translation)
-                return translation
-            else:
-                print(f"API响应格式错误: {result}")
+        # 重试机制
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                with self.stats_lock:
+                    self.stats['api_calls'] += 1
+                
+                # 添加请求间隔控制
+                with self.request_lock:
+                    current_time = time.time()
+                    time_since_last = current_time - self.last_request_time
+                    if time_since_last < self.request_interval:
+                        time.sleep(self.request_interval - time_since_last)
+                    self.last_request_time = time.time()
+                
+                response = requests.post(self.base_url, headers=self.headers, json=data, timeout=self.timeout)
+                response.raise_for_status()
+                result = response.json()
+                
+                if 'choices' in result and len(result['choices']) > 0:
+                    translation = result['choices'][0]['message']['content'].strip()
+                    # 保存到缓存
+                    self.save_translation_cache(text, translation)
+                    return translation
+                else:
+                    print(f"API响应格式错误: {result}")
+                    with self.stats_lock:
+                        self.stats['failed_requests'] += 1
+                    return None
+                    
+            except requests.exceptions.Timeout as e:
+                print(f"请求超时 (尝试 {attempt + 1}/{max_retries}): {e}")
+                if attempt < max_retries - 1:
+                    wait_time = (attempt + 1) * 2  # 指数退避: 2s, 4s, 6s
+                    print(f"等待 {wait_time} 秒后重试...")
+                    time.sleep(wait_time)
+                else:
+                    with self.stats_lock:
+                        self.stats['failed_requests'] += 1
+                    return None
+            except requests.exceptions.HTTPError as e:
+                if "429" in str(e):  # Too Many Requests
+                    print(f"频率限制 (尝试 {attempt + 1}/{max_retries}): {e}")
+                    if attempt < max_retries - 1:
+                        wait_time = (attempt + 1) * 10  # 429错误等待更长时间: 10s, 20s, 30s
+                        print(f"触发频率限制，等待 {wait_time} 秒后重试...")
+                        time.sleep(wait_time)
+                    else:
+                        with self.stats_lock:
+                            self.stats['failed_requests'] += 1
+                        return None
+                else:
+                    print(f"HTTP错误 (尝试 {attempt + 1}/{max_retries}): {e}")
+                    if attempt < max_retries - 1:
+                        wait_time = (attempt + 1) * 2
+                        print(f"等待 {wait_time} 秒后重试...")
+                        time.sleep(wait_time)
+                    else:
+                        with self.stats_lock:
+                            self.stats['failed_requests'] += 1
+                        return None
+            except requests.exceptions.RequestException as e:
+                print(f"API请求失败 (尝试 {attempt + 1}/{max_retries}): {e}")
+                if attempt < max_retries - 1:
+                    wait_time = (attempt + 1) * 2
+                    print(f"等待 {wait_time} 秒后重试...")
+                    time.sleep(wait_time)
+                else:
+                    with self.stats_lock:
+                        self.stats['failed_requests'] += 1
+                    return None
+            except json.JSONDecodeError as e:
+                print(f"JSON解析失败: {e}")
                 with self.stats_lock:
                     self.stats['failed_requests'] += 1
                 return None
-
-        except requests.exceptions.RequestException as e:
-            print(f"API请求失败: {e}")
-            with self.stats_lock:
-                self.stats['failed_requests'] += 1
-            return None
-        except json.JSONDecodeError as e:
-            print(f"JSON解析失败: {e}")
-            with self.stats_lock:
-                self.stats['failed_requests'] += 1
-            return None
 
     def split_article(self, content, max_chunk_size=3000):
         """将文章分割成较小的块进行翻译"""
@@ -224,6 +272,7 @@ class DeepSeekTranslator:
 
         # 翻译每个部分
         translated_chunks = []
+        failed_chunks = 0
         for i, chunk in enumerate(chunks):
             print(f"    翻译第 {i + 1}/{len(chunks)} 部分...")
 
@@ -233,13 +282,15 @@ class DeepSeekTranslator:
             if translated_chunk:
                 translated_chunks.append(translated_chunk)
             else:
-                print(f"    第 {i + 1} 部分翻译失败")
-                translated_chunks.append(chunk)  # 保留原文
+                print(f"    ❌ 第 {i + 1} 部分翻译失败")
+                failed_chunks += 1
+                # 如果翻译失败超过一半，放弃整篇文章
+                if failed_chunks > len(chunks) / 2:
+                    print(f"    ❌ 翻译失败过多 ({failed_chunks}/{len(chunks)})，放弃这篇文章")
+                    return None
+                translated_chunks.append(f"[翻译失败 - 原文]{chunk}")  # 标记失败但保留原文
 
-            # 智能延迟 - 根据API限制优化 (RPM:1000 ≈ 每秒16.7次)
-            # 缓存命中时不需要延迟，API调用时适当延迟
-            if translated_chunk and not self.get_cached_translation(chunk):
-                time.sleep(0.1)  # 减少延迟，提高效率
+            # 移除这里的延迟，因为已经在translate_text中处理了
 
         # 组合翻译结果
         translated_content = '\n\n'.join(translated_chunks)
@@ -302,9 +353,7 @@ def translate_articles():
     print("4. 翻译全部")
     print("5. 继续翻译（跳过已翻译）")
 
-    # 默认选择翻译前5篇（测试）
-    choice = '1'
-    print(f"\n自动选择: {choice} - 翻译前5篇（测试）")
+    choice = input("\n请选择 (1-5): ").strip()
 
     if choice == '1':
         files_to_translate = md_files[:5]
@@ -322,9 +371,9 @@ def translate_articles():
             print("输入错误，默认翻译前5篇")
             files_to_translate = md_files[:5]
     elif choice == '5':
-        # 跳过已翻译的文章
-        translated_titles = {f.stem.split('_')[0] for f in existing_files}
-        files_to_translate = [f for f in md_files if f.stem not in translated_titles]
+        # 跳过已翻译的文章 - 现在文件名相同，直接比较文件名
+        translated_filenames = {f.name for f in existing_files}
+        files_to_translate = [f for f in md_files if f.name not in translated_filenames]
         print(f"发现 {len(files_to_translate)} 篇未翻译的文章")
     else:
         files_to_translate = md_files

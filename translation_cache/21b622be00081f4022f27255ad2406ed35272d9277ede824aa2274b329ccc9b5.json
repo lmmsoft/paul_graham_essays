@@ -1,0 +1,6 @@
+{
+  "original": "I personally have never needed object-oriented abstractions. Common Lisp has an enormously powerful object system and I've never used it once. I've done a lot of things (e.g. making hash tables full o...",
+  "translation": "我个人从未需要过面向对象的抽象。Common Lisp拥有极其强大的对象系统，而我一次都未曾使用过它。我做过许多事情（例如创建装满闭包的哈希表），这些在更弱小的语言中可能需要面向对象技术来实现，但我从未不得不使用CLOS。\n\n也许我只是愚蠢，或者只接触过应用程序的某个有限子集。基于个人编程经验来设计语言是有风险的。但把那些你从未需要、只是被认为是个好主意的东西加进去，似乎更加危险。\n\n---\n\n[里斯关于面向对象的回复](reesoo.html)  \n[西班牙语译本](http://www.cibercalli.com/erick/hackingnews/porque-arc-no-es-especialmente-orientado-a-objetos)  \n\n* * *  \n\n---",
+  "timestamp": "2025-07-14T12:35:10.898662",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

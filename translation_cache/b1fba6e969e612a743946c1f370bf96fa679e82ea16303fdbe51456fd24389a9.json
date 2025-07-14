@@ -1,0 +1,6 @@
+{
+  "original": "> As a result of their process, the App Store is full of half-baked applications. I make a new version almost every day that I release to beta users. The version on the App Store feels old and crappy....",
+  "translation": "由于他们的审核流程，App Store充斥着大量半成品应用。我几乎每天都会发布新版本给测试用户，而应用商店里的版本显得陈旧又糟糕。我敢肯定许多开发者都有同感：一方面觉得\"对App Store上架的版本并不自豪\"，另一方面又认为\"这其实是苹果的过错\"。\n\n另一位开发者写道：\n\n我相信苹果认为他们的审核流程能通过质量把关来保护用户。但现实中像我们这样的漏洞总能通过审核，而修复这些漏洞的更新却需要4-8周才能获批，这让用户觉得iPhone应用有时就是会出问题。更糟的是，这些应用在其他采用即时审核机制的平台上运行完全正常。",
+  "timestamp": "2025-07-14T13:30:49.531088",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

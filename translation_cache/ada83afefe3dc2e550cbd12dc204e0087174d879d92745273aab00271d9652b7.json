@@ -1,0 +1,6 @@
+{
+  "original": "* * *\n\n  \n  \nWhen Lisp was first invented, all these ideas were far removed from ordinary programming practice, which was dictated largely by the hardware available in the late 1950s.  \n  \nOver time, ...",
+  "translation": "* * *\n\n当Lisp最初被发明时，所有这些理念都与常规编程实践相去甚远，当时的编程实践很大程度上受限于20世纪50年代末的硬件条件。\n\n随着时间的推移，以一系列流行语言为代表的默认编程语言逐渐向Lisp靠拢。其中1-5项特性现已广泛普及。第6项特性开始出现在主流语言中。Python具备了第7项特性的某种形式，尽管似乎没有专门的语法支持。而第8项特性（与第9项共同构成了Lisp宏的实现基础）至今仍是Lisp独有的特色——或许因为（a）它需要依赖括号或同样\"糟糕\"的符号，（b）一旦添加了这个终极能力，你就不能再声称发明了新语言，而只能算设计了Lisp的新方言;-)\n\n虽然对当代程序员很有帮助，但用Lisp与其他语言随机采用的权宜之计之间的差异来描述它，其实颇为奇怪。这很可能不是麦卡锡的原始构想。Lisp并非为修正Fortran的缺陷而生，它更像是[计算公理化](rootsoflisp.html)尝试的副产品。\n\n---  \n| | [日语译本](http://d.hatena.ne.jp/lionfan/20070217)  \n\n* * *",
+  "timestamp": "2025-07-14T13:50:00.703802",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

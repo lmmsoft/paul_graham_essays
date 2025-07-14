@@ -1,0 +1,6 @@
+{
+  "original": "| | [](index.html)  \n  \n|   \n  \n|  **Want to start a startup?** Get funded by [Y Combinator](http://ycombinator.com/apply.html).    \n  \n---  \n  \nApril 2001, rev. April 2003  \n  \n _(This article is der...",
+  "translation": "| | [](index.html)  \n\n|  \n\n|  **想创业吗？** 获得 [Y Combinator](http://ycombinator.com/apply.html) 的资助。  \n\n---  \n\n2001年4月，2003年4月修订  \n\n（本文改编自2001年Franz开发者研讨会上的演讲。）  \n\n1995年夏天，我和朋友罗伯特·莫里斯创办了一家名为 [Viaweb](http://docs.yahoo.com/docs/pr/release184.html) 的初创公司。我们的计划是开发一款软件，让终端用户能够搭建在线商店。这款软件在当时的新颖之处在于，它运行在我们的服务器上，并以普通网页作为交互界面。  \n\n当然，可能有许多人同时想到了这个主意，但据我所知，Viaweb是第一个基于网页的应用程序。这个想法对我们来说如此新奇，以至于我们直接用其命名公司：Viaweb，因为我们的软件通过网页运行，而非在你的桌面电脑上。  \n\n这款软件的另一个特别之处是，它主要用一种名为Lisp的编程语言编写。它是首批用Lisp开发的大型终端用户应用之一，而此前Lisp主要应用于大学和研究实验室。[1]  \n\n**秘密武器**  \n\n埃里克·雷蒙德写过一篇名为《如何成为黑客》的文章，其中他告诉 aspiring hackers 应该学习哪些语言。他建议从Python和Java开始，因为它们易于学习。认真的黑客还会想学C，以便捣鼓Unix，以及Perl用于系统管理和CGI脚本。最后，真正严肃的黑客应该考虑学习Lisp：  \n\n> 学习Lisp是值得的，因为它能带来深刻的启蒙体验——当你最终领悟时，这种体验会让你在余下的编程生涯中成为更好的程序员，即使你实际上并不常用Lisp本身。",
+  "timestamp": "2025-07-14T02:31:52.867805",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

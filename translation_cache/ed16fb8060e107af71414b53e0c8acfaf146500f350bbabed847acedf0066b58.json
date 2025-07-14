@@ -1,0 +1,6 @@
+{
+  "original": "| | [](index.html)  \n  \n|   \n  \nMay 2002  \n  \n|  |  \"The quantity of meaning compressed into a small space by algebraic signs, is another circumstance that facilitates the reasonings we are accustomed...",
+  "translation": "| | [](index.html)  \n  \n|   \n  \n2002年5月  \n  \n|  |  \"代数符号将大量意义压缩至狭小空间的能力，正是其能辅助我们进行复杂推理的另一优势。\"  \n  \n——查尔斯·巴贝奇，引自艾弗森的图灵奖演讲  \n  \n---  \n  \n  \n在LL1邮件列表关于《书呆子的复仇》引发议题的讨论中，保罗·普雷斯科特写下了令我印象深刻的话：\n\n> Python的目标是规范性与可读性，而非简洁性。\n\n表面看来，这对编程语言而言堪称致命评价。就我理解，简洁性=力量。若此等式成立，则替换可得：\n\n> Python的目标是规范性与可读性，而非力量。",
+  "timestamp": "2025-07-14T02:30:53.908991",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

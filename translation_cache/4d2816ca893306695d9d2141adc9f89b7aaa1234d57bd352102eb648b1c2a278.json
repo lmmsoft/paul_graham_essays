@@ -1,0 +1,6 @@
+{
+  "original": "Suddenly, in a matter of weeks I think, McCarthy found his theoretical exercise transformed into an actual programming language-- and a more powerful one than he had intended.  \n  \nSo the short explan...",
+  "translation": "转眼间，大约就在几周之内，麦卡锡发现他的理论构想竟蜕变成了一门真正的编程语言——其强大程度甚至超出了他的预期。\n\n因此，要解释这门诞生于1950年代的语言为何不过时，关键在于它本质并非技术而是数学，而数学永不褪色。Lisp真正应该对比的对象不是1950年代的硬件，而是诸如1960年问世至今仍是最快通用排序算法的快速排序。\n\n1950年代幸存至今的另一门语言Fortran，则代表了语言设计的对立路径。Lisp本是意外成为编程语言的数学理论，Fortran则是刻意设计的编程语言——但以今日标准看是极其底层的语言。\n\n1956年问世的[Fortran I](history.html)与当代Fortran截然不同。它本质上是带有数学运算的汇编语言，某些方面甚至不及现代汇编语言强大——例如没有子程序概念，只有跳转指令。如今的Fortran可以说更接近Lisp而非其始祖Fortran I。\n\nLisp与Fortran如同两棵进化树的树干，分别植根于数学理论与机器架构。此后这两棵树不断趋同：Lisp始于强大，随后二十年追求速度；所谓主流语言始于速度，此后四十年逐步增强表现力，如今最先进的已相当接近Lisp——接近，但仍缺几项关键要素……\n\n**Lisp的独特基因**\n\n初创之时，Lisp蕴含九大创新理念。其中部分已成常识，部分仅见于前沿语言，仍有两点至今为Lisp独有。按被主流采纳的顺序排列：\n\n1. 条件语句。即if-then-else结构。如今视若平常，但Fortran I仅提供基于底层机器指令的条件跳转。\n\n2. 函数类型。在Lisp中，函数与整数、字符串同属数据类型，具有字面量表示法，可存入变量，能作为参数传递。\n\n3. 递归支持。Lisp是首个支持递归的编程语言。\n\n4. 动态类型。Lisp中所有变量实质都是指针。类型属于值而非变量，变量赋值或绑定实为指针复制而非值拷贝。\n\n5. 垃圾回收机制。",
+  "timestamp": "2025-07-14T02:31:25.592097",
+  "model": "deepseek-ai/DeepSeek-V3"
+}

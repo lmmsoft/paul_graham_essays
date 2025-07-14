@@ -1,0 +1,6 @@
+{
+  "original": "> Gary and I ordered a large pizza and found an open booth. The chief lit a cigarette. \"Look at those goddamn fleas, jabbering about some disease they'll see once in their lifetimes. That's the troubl...",
+  "translation": "加里和我点了一个大披萨，找了个空卡座坐下。警长点燃一支烟：\"看看那些该死的跳蚤，喋喋不休地讨论他们一辈子都碰不上几次的罕见病。这就是跳蚤的问题所在，他们只喜欢猎奇。他们讨厌那些日常病例。这就是我们和那些该死的跳蚤的区别。听着，我们喜欢处理那些棘手的腰椎间盘突出病例，而他们却讨厌高血压......\"\n\n很难将腰椎间盘突出形容为\"多汁\"（除非从字面理解）。但我想我明白他们的意思。我经常遇到需要追踪的\"多汁\"程序错误。非程序员很难想象在错误中寻找乐趣。按理说一切正常运行才是最好的。从某种角度确实如此。但不可否认，追查某些类型的错误时确实有种残酷的满足感。\n\n---\n| | [后记版本](https://sep.turbifycdn.com/ty/cdn/paulgraham/bepop.ps?t=1688221954&)  \n| | | | [Arc语言](http://www.paulgraham.com/arc.html)  \n| | [关于语言设计的五个问题](langdes.html)  \n| | | | [如何成为黑客](http://www.catb.org/~esr/faqs/hacker-howto.html)  \n| | [日语译本](http://www.shiro.dreamhost.com/scheme/trans/being-popular-j.html)  \n\n* * *",
+  "timestamp": "2025-07-14T13:33:06.780094",
+  "model": "deepseek-ai/DeepSeek-V3"
+}
