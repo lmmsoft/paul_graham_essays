@@ -229,6 +229,151 @@ class DeepSeekTranslator:
         if self.stats['total_requests'] > 0:
             print(f"  缓存命中率: {self.stats['cache_hits']/self.stats['total_requests']*100:.1f}%")
 
+    def find_failed_translation_files(self, directory="pg_essays_cn"):
+        """找到包含翻译失败的文件"""
+        failed_files = []
+        dir_path = Path(directory)
+        
+        if not dir_path.exists():
+            print(f"目录 {directory} 不存在")
+            return failed_files
+            
+        for file_path in dir_path.glob("*.md"):
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    if "[翻译失败 - 原文]" in content:
+                        # 统计失败段落数量
+                        fail_count = content.count("[翻译失败 - 原文]")
+                        failed_files.append({
+                            'file': file_path,
+                            'count': fail_count
+                        })
+            except Exception as e:
+                print(f"读取文件 {file_path} 时出错: {e}")
+        
+        return failed_files
+    
+    def extract_failed_chunks(self, file_path):
+        """提取文件中的失败段落"""
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # 使用正则表达式找到所有失败段落
+        pattern = r'\[翻译失败 - 原文\](.*?)(?=\n\n\[翻译失败 - 原文\]|\n\n(?!\[翻译失败 - 原文\])|$)'
+        matches = re.findall(pattern, content, re.DOTALL)
+        
+        failed_chunks = []
+        for i, match in enumerate(matches):
+            chunk = match.strip()
+            if chunk:
+                failed_chunks.append({
+                    'index': i,
+                    'content': chunk,
+                    'full_match': f"[翻译失败 - 原文]{chunk}"
+                })
+        
+        return failed_chunks, content
+    
+    def fix_failed_translations(self):
+        """修复翻译失败的段落"""
+        print("🔧 正在扫描翻译失败的文件...")
+        
+        failed_files = self.find_failed_translation_files()
+        
+        if not failed_files:
+            print("✅ 没有找到包含翻译失败的文件！")
+            return
+        
+        total_failures = sum(f['count'] for f in failed_files)
+        print(f"发现 {len(failed_files)} 个文件包含 {total_failures} 个翻译失败段落：")
+        
+        for i, file_info in enumerate(failed_files):
+            print(f"  {i+1}. {file_info['file'].name} ({file_info['count']} 个失败段落)")
+        
+        # 用户选择
+        print("\n修复选项:")
+        print("1. 修复所有失败段落")
+        print("2. 选择特定文件修复")
+        print("3. 取消")
+        
+        choice = input("\n请选择 (1-3): ").strip()
+        
+        if choice == '3':
+            return
+        elif choice == '2':
+            print("\n选择要修复的文件:")
+            for i, file_info in enumerate(failed_files):
+                print(f"  {i+1}. {file_info['file'].name}")
+            
+            try:
+                indices = input("请输入文件编号（逗号分隔）: ").split(',')
+                selected_files = [failed_files[int(i.strip()) - 1] for i in indices if i.strip().isdigit()]
+            except (ValueError, IndexError):
+                print("输入错误，将修复所有文件")
+                selected_files = failed_files
+        else:
+            selected_files = failed_files
+        
+        # 开始修复
+        print(f"\n开始修复 {len(selected_files)} 个文件...")
+        
+        for file_info in selected_files:
+            file_path = file_info['file']
+            print(f"\n{'='*50}")
+            print(f"正在修复: {file_path.name}")
+            
+            try:
+                self.fix_file_failed_translations(file_path)
+                print(f"✅ {file_path.name} 修复完成")
+            except Exception as e:
+                print(f"❌ {file_path.name} 修复失败: {e}")
+        
+        print(f"\n{'='*50}")
+        print("修复完成！")
+        self.print_stats()
+    
+    def fix_file_failed_translations(self, file_path):
+        """修复单个文件的翻译失败段落"""
+        failed_chunks, original_content = self.extract_failed_chunks(file_path)
+        
+        if not failed_chunks:
+            print(f"  没有发现失败段落")
+            return
+        
+        print(f"  发现 {len(failed_chunks)} 个失败段落")
+        
+        # 提取文件的标题作为上下文
+        title_match = re.search(r'^title:\s*"(.+)"$', original_content, re.MULTILINE)
+        if title_match:
+            title = title_match.group(1)
+        else:
+            title = file_path.stem
+        
+        updated_content = original_content
+        
+        # 逐个修复失败段落
+        for i, chunk_info in enumerate(failed_chunks):
+            print(f"    修复第 {i+1}/{len(failed_chunks)} 个段落...")
+            
+            context = f"这是Paul Graham的文章《{title}》的一个段落。"
+            translated_chunk = self.translate_text(chunk_info['content'], context)
+            
+            if translated_chunk:
+                # 替换失败段落
+                updated_content = updated_content.replace(
+                    chunk_info['full_match'],
+                    translated_chunk,
+                    1  # 只替换第一个匹配
+                )
+                print(f"    ✅ 第 {i+1} 个段落修复成功")
+            else:
+                print(f"    ❌ 第 {i+1} 个段落仍然失败")
+        
+        # 保存修复后的文件
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(updated_content)
+
     def translate_article(self, article_path):
         """翻译整篇文章"""
         print(f"正在翻译: {article_path}")
@@ -352,8 +497,9 @@ def translate_articles():
     print("3. 翻译指定文章")
     print("4. 翻译全部")
     print("5. 继续翻译（跳过已翻译）")
+    print("6. 修复翻译失败")
 
-    choice = input("\n请选择 (1-5): ").strip()
+    choice = input("\n请选择 (1-6): ").strip()
 
     if choice == '1':
         files_to_translate = md_files[:5]
@@ -375,6 +521,10 @@ def translate_articles():
         translated_filenames = {f.name for f in existing_files}
         files_to_translate = [f for f in md_files if f.name not in translated_filenames]
         print(f"发现 {len(files_to_translate)} 篇未翻译的文章")
+    elif choice == '6':
+        # 修复翻译失败
+        translator.fix_failed_translations()
+        return
     else:
         files_to_translate = md_files
 
