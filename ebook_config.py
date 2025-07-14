@@ -111,8 +111,6 @@ h3 {
 /* 双语对照容器 */
 .bilingual-section {
     margin: 1.5em 0;
-    border-left: 3px solid #e0e0e0;
-    padding-left: 1em;
 }
 
 .english-paragraph {
@@ -120,7 +118,6 @@ h3 {
     padding: 0.8em;
     background-color: #f8f9fa;
     border-radius: 6px;
-    border-left: 3px solid #007bff;
 }
 
 .english-paragraph p {
@@ -134,7 +131,6 @@ h3 {
     padding: 0.8em;
     background-color: #fff8f0;
     border-radius: 6px;
-    border-left: 3px solid #ff6b35;
 }
 
 .chinese-paragraph p {
@@ -313,8 +309,6 @@ h3 {
 .bilingual-section {
     margin: 1em 0;
     page-break-inside: avoid;
-    border-left: 3pt solid #ddd;
-    padding-left: 0.8em;
 }
 
 .english-paragraph {
@@ -322,7 +316,6 @@ h3 {
     padding: 0.5em 0.8em;
     background-color: #f8f9fa;
     border: 1pt solid #e0e0e0;
-    border-left: 3pt solid #007bff;
 }
 
 .english-paragraph p {
@@ -337,7 +330,6 @@ h3 {
     padding: 0.5em 0.8em;
     background-color: #fff8f0;
     border: 1pt solid #e0e0e0;
-    border-left: 3pt solid #ff6b35;
 }
 
 .chinese-paragraph p {

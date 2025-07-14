@@ -151,6 +151,17 @@ class BilingualEbookGeneratorSimple:
         # 处理特殊标记
         text = re.sub(r'\[翻译失败 - 原文\]', '', text)
         
+        # 清理爬虫残留的HTML代码
+        text = re.sub(r'\|\s*\|\s*\[\]\(index\.html\)', '', text)  # | | [](index.html)
+        text = re.sub(r'\|\s*\|\s*\[\]\([^)]*\)', '', text)  # 其他类似的链接
+        text = re.sub(r'^\|\s*$', '', text, flags=re.MULTILINE)  # 单独的 |
+        text = re.sub(r'^\|\s+', '', text, flags=re.MULTILINE)  # 行首的 |
+        
+        # 清理多余的符号
+        text = re.sub(r'^\*{3,}\s*$', '', text, flags=re.MULTILINE)  # *** 分隔线
+        text = re.sub(r'^-{3,}\s*$', '', text, flags=re.MULTILINE)  # --- 分隔线
+        text = re.sub(r'^\s*\*\s*\*\s*\*\s*$', '', text, flags=re.MULTILINE)  # * * *
+        
         # 清理多余的空行
         text = re.sub(r'\n{3,}', '\n\n', text)
         
